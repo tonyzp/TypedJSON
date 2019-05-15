@@ -12,7 +12,7 @@
 
 @interface TJAppDelegate ()
 
-- (NSDictionary *)loanJSON;
+- (NSDictionary *)loadJSON;
 
 @end
 
@@ -22,7 +22,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSDictionary *json = [self loanJSON];
+    NSDictionary *json = [self loadJSON];
     
     // Get username from json exclued empty string value '', return 'anonymous' while nil.
     NSString *username = json.tj.string(@"username").without.empty.defaults(@"anonymous").value;
@@ -40,7 +40,7 @@
 
 #pragma mark - Private (Others)
 
-- (NSDictionary *)loanJSON {
+- (NSDictionary *)loadJSON {
     NSString *file = [NSBundle.mainBundle pathForAuxiliaryExecutable:@"test.json"];
     NSData *data = [NSData dataWithContentsOfFile:file];
     NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
