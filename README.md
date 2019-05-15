@@ -12,10 +12,7 @@ Objective-C is a runtime, weakly typed language. The `NSDictionary` class in Obj
 Suppose we have a json dictionary:
 
 ```objectivec
-NSDictionary *json = @{ @"username": @"tp",
-                        @"password": @"123456",
-                        @"scores": @{ @"programming": @70, @"language": @80 },
-                        @"tels": @[ @"1367890876", @"02884435261" ] };
+NSDictionary *json = @{ @"username": @"tp", @"password": @"123456", @"scores": @{ @"programming": @70, @"language": @80 }, @"tels": @[ @"1367890876", @"02884435261" ] };
 ```
 
 We may access the dictionary in this way:
