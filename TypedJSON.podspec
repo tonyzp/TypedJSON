@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/tonyzp/TypedJSON'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tp' => 'pzhang0414@gmail.com' }
-  s.source           = { :git => 'git@github.com:tonyzp/TypedJSON.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tonyzp/TypedJSON.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'TypedJSON/Classes/**/*.{h,m}'
   s.public_header_files = 'TypedJSON/Classes/**/*.h'
