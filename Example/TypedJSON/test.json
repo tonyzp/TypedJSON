@@ -1,0 +1,12 @@
+{
+	"username": "tp",
+	"password": "123456",
+	"scores": {
+		"programming": 70,
+		"language": 80
+	},
+	"tels": [
+		"+8613612345678",
+		"028-84555555"
+	]
+}

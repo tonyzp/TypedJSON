@@ -2,45 +2,49 @@
 //  TJAppDelegate.m
 //  TypedJSON
 //
-//  Created by 张鹏 on 05/14/2019.
-//  Copyright (c) 2019 张鹏. All rights reserved.
+//  Created by tp on 05/14/2019.
+//  Copyright (c) 2019 tp. All rights reserved.
 //
 
 #import "TJAppDelegate.h"
 
+#import <TypedJSON/TypedJSON.h>
+
+@interface TJAppDelegate ()
+
+- (NSDictionary *)loanJSON;
+
+@end
+
 @implementation TJAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+#pragma mark - Private (UIApplicationDelegate)
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSDictionary *json = [self loanJSON];
+    
+    // Get username from json exclued empty string value '', return 'anonymous' while nil.
+    NSString *username = json.tj.string(@"username").without.empty.defaults(@"anonymous").value;
+    
+    // Get programming score number in scores dictionary from json.
+    NSNumber *programmingScore = json.tj.dictionary(@"scores").number(@"programming").value;
+    
+    // Get politics score number in scores dictionary from json, return 0 while politics do not exists.
+    NSNumber *politicsScore = json.tj.dictionary(@"scores").number(@"politics").with.defaults(@0).value;
+    
+    NSLog(@"The programming score of %@ is %@, and politics %@.", username, programmingScore, politicsScore);
+    
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
-{
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-}
+#pragma mark - Private (Others)
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (NSDictionary *)loanJSON {
+    NSString *file = [NSBundle.mainBundle pathForAuxiliaryExecutable:@"test.json"];
+    NSData *data = [NSData dataWithContentsOfFile:file];
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
+    return json;
 }
 
 @end

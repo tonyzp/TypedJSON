@@ -1,0 +1,26 @@
+PODS:
+  - Kiwi (3.0.0)
+  - TypedJSON (0.1.0)
+  - TypedJSON/Tests (0.1.0):
+    - Kiwi
+
+DEPENDENCIES:
+  - Kiwi
+  - TypedJSON (from `../`)
+  - TypedJSON/Tests (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  TypedJSON:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  TypedJSON: e547775fdeb51f2c79904541bb936e38f83286d2
+
+PODFILE CHECKSUM: 8ada7da65c237951b9083428382227dd9946eac1
+
+COCOAPODS: 1.6.1

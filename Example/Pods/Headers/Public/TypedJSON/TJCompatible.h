@@ -1,0 +1,1 @@
+../../../../../TypedJSON/Classes/TJCompatible.h

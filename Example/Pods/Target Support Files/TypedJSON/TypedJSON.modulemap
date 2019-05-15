@@ -1,0 +1,6 @@
+framework module TypedJSON {
+  umbrella header "TypedJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}

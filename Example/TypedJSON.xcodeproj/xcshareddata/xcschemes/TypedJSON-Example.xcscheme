@@ -29,13 +29,23 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
                BuildableName = "TypedJSON_Tests.xctest"
                BlueprintName = "TypedJSON_Tests"
                ReferencedContainer = "container:TypedJSON.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9BE8E88411088CC9607CB6245FDC797A"
+               BuildableName = "TypedJSON-Unit-Tests.xctest"
+               BlueprintName = "TypedJSON-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
