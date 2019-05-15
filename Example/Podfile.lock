@@ -1,7 +1,7 @@
 PODS:
   - Kiwi (3.0.0)
-  - TypedJSON (0.1.0)
-  - TypedJSON/Tests (0.1.0):
+  - TypedJSON (1.0.0)
+  - TypedJSON/Tests (1.0.0):
     - Kiwi
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
-  TypedJSON: e547775fdeb51f2c79904541bb936e38f83286d2
+  TypedJSON: 8d31e4d12326f7a7ecb4aec90cb1edec8b437038
 
 PODFILE CHECKSUM: 8ada7da65c237951b9083428382227dd9946eac1
 
