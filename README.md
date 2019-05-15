@@ -82,16 +82,16 @@ The json data in this example:
 
 ```json
 {
-	"username": "tp",
-	"password": "123456",
-	"scores": {
-		"programming": 70,
-		"language": 80
-	},
-	"tels": [
-		"+8613612345678",
-		"028-84555555"
-	]
+    "username": "tp",
+    "password": "123456",
+    "scores": {
+        "programming": 70,
+        "language": 80
+    },
+    "tels": [
+        "+8613612345678",
+        "028-84555555"
+    ]
 }
 ```
 
@@ -210,7 +210,7 @@ This operator just get value by a specified key, without type check:
 json.tj.any(@"foo").value;
 ```
 
-> The return value id an `id` type.
+> The return value is an `id` type.
 
 Or you could use `Valuable` extension to do the type check:
 
@@ -226,11 +226,11 @@ Supporse the value is wrapped in the inner dictionary:
 
 ```json
 {
-	"foo": {
-		"bar": {
-			"greeting": "Hello ~"
-		}
-	}
+    "foo": {
+        "bar": {
+            "greeting": "Hello ~"
+        }
+    }
 }
 ```
 
@@ -248,7 +248,7 @@ In the example above we access `greeting` in an operator chain, with `- find` op
 json.tj.find(@"greeting").value;
 ```
 
-`- find` operator enumerate the dictionary recursively to get the value mathes the specified key, but doen't do the type check. Inorder to insure type safety of return value, we could use `Valuable` method `- stringValue`:
+`- find` operator enumerate the dictionary recursively to get the value mathes the specified key, but doen't do the type check. Inorder to insure type safety of the value, we could use `Valuable` extension method `- stringValue`:
 
 ```objectivec
 json.tj.find(@"greeting").stringValue;
