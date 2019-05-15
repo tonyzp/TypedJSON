@@ -200,7 +200,59 @@ Suppose we get `nil` value in the chain, and we need to provide a default value:
 json.tj.string(@"foo").with.defaults(@"bar").value;
 ```
 
-> The `- with` operator could be omitted, it just to insure semantics.
+> The `- with` operator could be omitted, it just to insure semantics of the statment.
+
+### The `- any` operator
+
+This operator just get value by a specified key, without type check:
+
+```objectivec
+json.tj.any(@"foo").value;
+```
+
+> The return value id an `id` type.
+
+Or you could use `Valuable` extension to do the type check:
+
+```objectivec
+json.tj.any(@"foo").stringValue;
+```
+
+> `- stringValue` will make sure the return value matches `NSString` type, if not then return `nil`.
+
+### Access values in a chain
+
+Supporse the value is wrapped in the inner dictionary:
+
+```json
+{
+	"foo": {
+		"bar": {
+			"greeting": "Hello ~"
+		}
+	}
+}
+```
+
+We can access the `greeting` in a chain:
+
+```objectivec
+json.tj.dictionary(@"foo").dictionary(@"bar").string(@"greeting").value;
+```
+
+### The `- find` operator
+
+In the example above we access `greeting` in an operator chain, with `- find` operator we can change the code:
+
+```objectivec
+json.tj.find(@"greeting").value;
+```
+
+`- find` operator enumerate the dictionary recursively to get the value mathes the specified key, but doen't do the type check. Inorder to insure type safety of return value, we could use `Valuable` method `- stringValue`:
+
+```objectivec
+json.tj.find(@"greeting").stringValue;
+```
 
 ## Author
 
