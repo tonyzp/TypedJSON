@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/TypedJSON.svg?style=flat)](https://cocoapods.org/pods/TypedJSON)
 [![Platform](https://img.shields.io/cocoapods/p/TypedJSON.svg?style=flat)](https://cocoapods.org/pods/TypedJSON)
 
-## The way we handle Objective-C dictionary is Ugly.
+## The way we handle Objective-C JSON dictionary is Ugly.
 
 Objective-C is a runtime, weakly typed language. The `NSDictionary` class in Objective-C isn't a type safety object. 
 
@@ -50,7 +50,7 @@ if (!score || ![score isKindOfClass:NSNumber.class]) {
 
 The problem here is, **we do much things with type & value check to insure type safety, these make our code ugly**.
 
-## A better way handle this
+## A better way to handle this
 
 With `TypedJSON`, we use chain operators to sole this problem in a semantic way. These try to insure the elegance and readability of the code.
 
@@ -248,7 +248,7 @@ In the example above we access `greeting` in an operator chain, with `- find` op
 json.tj.find(@"greeting").value;
 ```
 
-`- find` operator enumerate the dictionary recursively to get the value mathes the specified key, but doen't do the type check. Inorder to insure type safety of the value, we could use `Valuable` extension method `- stringValue`:
+`- find` operator enumerate the dictionary recursively to get the value mathes the specified key, but doesn't do the type check. In order to insure type safety of the value, we could use `Valuable` extension method `- stringValue`:
 
 ```objectivec
 json.tj.find(@"greeting").stringValue;
