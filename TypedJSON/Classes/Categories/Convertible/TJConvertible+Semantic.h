@@ -14,8 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) BOOL negation;
 
+/// This operator just return the current convertible instance.
 - (TJConvertible *)with;
 
+/// This operator could be used before other condition operators just like `- empty`, to provider negative semantic.
 - (TJConvertible *)without;
 
 @end
