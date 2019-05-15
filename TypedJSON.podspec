@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = 'A type safe way to access value in Objective-c JSON dictionary.'
   s.homepage         = 'https://github.com/tonyzp/TypedJSON'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tp' => 'peng.zhang@56qq.com' }
+  s.author           = { 'tp' => 'pzhang0414@gmail.com' }
   s.source           = { :git => 'git@github.com:tonyzp/TypedJSON.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'TypedJSON/Classes/**/*.{h,m}'
