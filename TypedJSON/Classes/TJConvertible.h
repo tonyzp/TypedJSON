@@ -18,7 +18,7 @@ typedef ValueType _Nullable (^TJConvertibleMaker)(void);
 
 + (instancetype)create:(TJConvertibleMaker)maker;
 
-- (ValueType)value;
+- (nullable ValueType)value;
 
 @end
 
