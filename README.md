@@ -251,6 +251,22 @@ json.tj.find(@"greeting").value;
 json.tj.find(@"greeting").stringValue;
 ```
 
+### The `- as` operator
+
+This operator is similar to `Valuable` extension methods. It make sure the value matches the specified class type. Usually we use this operator after `- find` or `- any` operators in the operator chain:
+
+```objectivec
+json.tj.find(@"greeting").as(NSString.class).value;
+```
+
+> This make sure the result value of `- find` operator `@"greeting"` matches `NSString` class.
+
+It''s equal to:
+
+```objectivec
+json.tj.find(@"greeting").stringValue;
+```
+
 ## Author
 
 tp, pzhang0414@gmail.com
