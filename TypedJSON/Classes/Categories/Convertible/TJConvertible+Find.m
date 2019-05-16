@@ -14,9 +14,9 @@
 
 #pragma mark - Public
 
-- (TJConvertible * _Nonnull (^)(NSString * _Nonnull))find {
-    return ^TJConvertible * (NSString *key) {
-        return [TJConvertible create:^id _Nullable{
+- (TJConvertible<id> * _Nonnull (^)(NSString * _Nonnull))find {
+    return ^TJConvertible<id> * (NSString *key) {
+        return [TJConvertible<id> create:^id _Nullable {
             NSDictionary *json = self.dictionaryValue;
             // If value is not a json dictionary, then return nil
             if (!json) {

@@ -12,7 +12,7 @@
 #pragma mark - Public
 
 - (TJConvertible<id> *_Nonnull (^)(id _Nonnull))defaults {
-    return ^TJConvertible<id> *(id value) {
+    return ^TJConvertible<id> * (id value) {
         return [TJConvertible<id> create:^id _Nullable {
             return self.value ?: value;
         }];

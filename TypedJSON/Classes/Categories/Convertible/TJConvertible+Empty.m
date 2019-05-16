@@ -13,8 +13,8 @@
 
 #pragma mark - Public
 
-- (TJConvertible *)empty {
-    return [TJConvertible create:^id _Nullable {
+- (TJConvertible<id> *)empty {
+    return [TJConvertible<id> create:^id _Nullable {
         id value = self.value;
         // If nil value, then return nil
         if (!value) {

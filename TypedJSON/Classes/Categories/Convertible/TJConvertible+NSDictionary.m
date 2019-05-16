@@ -35,8 +35,8 @@
 #pragma mark - Private
 
 - (TJConvertible * _Nonnull (^)(NSString * _Nonnull))makeDictionaryAccessorConvertibleBlockWith:(Class)cls {
-    return ^TJConvertible * (NSString *key) {
-        return [TJConvertible create:^id _Nullable {
+    return ^TJConvertible<id> * (NSString *key) {
+        return [TJConvertible<id> create:^id _Nullable {
             NSDictionary *json = self.dictionaryValue;
             if (!json) {
                 return nil;

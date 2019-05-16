@@ -8,6 +8,7 @@
 #import <TypedJSON/NSDictionary+TJCompatible.h>
 #import <TypedJSON/TJConvertible.h>
 #import <TypedJSON/TJConvertible+NSDictionary.h>
+#import <TypedJSON/TJConvertible+As.h>
 #import <TypedJSON/TJConvertible+Defaults.h>
 #import <TypedJSON/TJConvertible+Empty.h>
 #import <TypedJSON/TJConvertible+Find.h>

@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TJConvertible <__covariant ValueType>(Default)
+@interface TJConvertible<__covariant ValueType> (Default)
 
 /// This operator make the specified value as the final value while the previous value is nil.
 - (TJConvertible<ValueType> * (^)(ValueType))defaults;

@@ -28,12 +28,12 @@
 
 #pragma mark - Public (Other)
 
-- (TJConvertible *)with {
+- (TJConvertible<id> *)with {
     return self;
 }
 
-- (TJConvertible *)without {
-    TJConvertible *convertible = [TJConvertible create:self.maker];
+- (TJConvertible<id> *)without {
+    TJConvertible<id> *convertible = [TJConvertible<id> create:self.maker];
     convertible.negation = !self.negation;
     return convertible;
 }

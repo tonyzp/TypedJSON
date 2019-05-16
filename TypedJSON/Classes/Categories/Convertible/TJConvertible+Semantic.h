@@ -10,15 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TJConvertible (Semantic)
+@interface TJConvertible<__covariant ValueType> (Semantic)
 
 @property (nonatomic, assign) BOOL negation;
 
 /// This operator just return the current convertible instance.
-- (TJConvertible *)with;
+- (TJConvertible<ValueType> *)with;
 
 /// This operator could be used before other condition operators just like `- empty`, to provider negative semantic.
-- (TJConvertible *)without;
+- (TJConvertible<ValueType> *)without;
 
 @end
 

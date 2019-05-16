@@ -52,19 +52,6 @@ describe(@"NSDictionary compatible tests", ^{
             [[json.tj.any(@"channles").value shouldNot] beNil];
             [[json.tj.any(@"info").value shouldNot] beNil];
         });
-        
-        it(@"can find object recursively", ^{
-            [[json.tj.find(@"name").value should] equal:@"test"];
-            [[json.tj.find(@"id").value should] equal:@1000];
-        });
-        
-        it(@"can make any valuable", ^{
-            [[json.tj.any(@"name").stringValue shouldNot] beNil];
-            [[json.tj.any(@"name").stringValue should] equal:@"test"];
-            [[json.tj.any(@"name").numberValue should] beNil];
-            [[json.tj.find(@"id").numberValue should] equal:@1000];
-            [[json.tj.find(@"id").stringValue should] beNil];
-        });
     });
 
     context(@"will read json with correct type", ^{
@@ -94,17 +81,46 @@ describe(@"NSDictionary compatible tests", ^{
             [[json.tj.dictionary(@"channles").without.empty.value should] beNil];
         });
 
-        it(@"has default sematic", ^{
+        it(@"in chain", ^{
+            [[json.tj.dictionary(@"info").dictionary(@"user").number(@"id").without.empty.value should] equal:@1000];
+            [[json.tj.dictionary(@"info").string(@"user").value should] beNil];
+            [[json.tj.dictionary(@"name").dictionary(@"user").value should] beNil];
+        });
+    });
+    
+    context(@"will work with operators", ^{
+        it(@"can find object recursively", ^{
+            [[json.tj.find(@"name").value should] equal:@"test"];
+            [[json.tj.find(@"id").value should] equal:@1000];
+        });
+        
+        it(@"can provider default value", ^{
             [[json.tj.string(@"username").with.defaults(@"haha").value shouldNot] beNil];
             [[json.tj.string(@"username").without.empty.defaults(@"haha").value shouldNot] beNil];
             [[json.tj.string(@"username").with.defaults(@"haha").without.empty.value shouldNot] beNil];
             [[json.tj.dictionary(@"channles").without.empty.with.defaults(@{}).value shouldNot] beNil];
         });
-
-        it(@"in chain", ^{
-            [[json.tj.dictionary(@"info").dictionary(@"user").number(@"id").without.empty.value should] equal:@1000];
-            [[json.tj.dictionary(@"info").string(@"user").value should] beNil];
-            [[json.tj.dictionary(@"name").dictionary(@"user").value should] beNil];
+        
+        it(@"can make sure the value matches specified type", ^{
+            [[json.tj.any(@"name").as(NSString.class).value should] equal:@"test"];
+        });
+    });
+    
+    context(@"will work with valuable extensions", ^{
+        it(@"can make sure value is string", ^{
+            [[json.tj.find(@"name").stringValue should] equal:@"test"];
+        });
+        
+        it(@"can make sure value is number", ^{
+            [[json.tj.find(@"id").numberValue should] equal:@1000];
+        });
+        
+        it(@"can make sure value is array", ^{
+            [[json.tj.find(@"scores").arrayValue shouldNot] beNil];
+        });
+        
+        it(@"can make sure value is dictionary", ^{
+            [[json.tj.find(@"channles").dictionaryValue shouldNot] beNil];
         });
     });
 });

@@ -1,0 +1,1 @@
+../../../../../TypedJSON/Classes/Categories/Convertible/TJConvertible+As.h
