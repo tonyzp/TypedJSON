@@ -1,8 +1,8 @@
 {
   "name": "TypedJSON",
-  "version": "1.0.0",
-  "summary": "A type safe way to access value in Objective-c JSON dictionary.",
-  "description": "A type safe way to access value in Objective-c JSON dictionary.",
+  "version": "1.1.0",
+  "summary": "A type-safe way to access value in Objective-C JSON dictionary.",
+  "description": "A type-safe way to access value in Objective-c JSON dictionary.",
   "homepage": "https://github.com/tonyzp/TypedJSON",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tonyzp/TypedJSON.git",
-    "tag": "1.0.0"
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "8.0"

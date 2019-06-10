@@ -9,10 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TJConvertible<__covariant ValueType> (As)
+@interface TJConvertible (As)
 
 /// This operator tries to make sure the value type matches the specified class, otherwise return nil.
-- (TJConvertible<ValueType> * (^)(Class))as;
+- (TJConvertible<id> * (^)(Class))as;
 
 @end
 

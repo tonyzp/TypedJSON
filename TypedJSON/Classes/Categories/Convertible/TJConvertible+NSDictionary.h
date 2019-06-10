@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TJConvertible<__covariant ValueType> (NSDictionary)
+@interface TJConvertible (NSDictionary)
 
 /// This operator tries to get NSString value from the previous value as if it's a dictionary with a specified key. The final value could be nil if type not mathes NSString.
 - (TJConvertible<NSString *> * (^)(NSString *))string;
@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (TJConvertible<NSDictionary *> * (^)(NSString *))dictionary;
 
 /// This operator tries to get any value from the from the previous value as if it's a dictionary with a specified key. The final value doesn't do the type check.
-- (TJConvertible<ValueType> * (^)(NSString *))any;
+- (TJConvertible<id> * (^)(NSString *))any;
 
 @end
 
