@@ -267,6 +267,15 @@ It''s equal to:
 json.tj.find(@"greeting").stringValue;
 ```
 
+### Error case
+
+If the `json` object is `nil` or not a subcalss of `NSDictionary`, use `.tj` directly may cause crash. So we should make **nullability & type check** for `json` object before access with tj. Or we can access with `TJ(json)` macro to do this for you.
+
+```objective-c
+// The `json` object could be `nil`, or it's class is NOT a kind of NSDicionary.
+NSString *username = TJ(json).string(@"username").without.empty.defaults(@"anonymous").value;
+```
+
 ## Author
 
 tp, pzhang0414@gmail.com

@@ -14,3 +14,4 @@
 #import <TypedJSON/TJConvertible+Find.h>
 #import <TypedJSON/TJConvertible+Semantic.h>
 #import <TypedJSON/TJConvertible+Valuable.h>
+#import <TypedJSON/TJDefine.h>
