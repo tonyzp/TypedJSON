@@ -13,8 +13,10 @@
 #pragma mark - TJCompatible
 
 - (TJConvertible *)tj {
+    // Insure immutability
+    NSDictionary *json = self.copy;
     return [TJConvertible<NSDictionary *> create:^NSDictionary * _Nullable{
-        return self;
+        return json;
     }];
 }
 
