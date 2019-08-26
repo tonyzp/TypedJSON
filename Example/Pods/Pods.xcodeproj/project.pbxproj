@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00575EE76B2F820DA0A1C2FE61464868 /* KWInequalityMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5597902587425F1C4A3423B1D851BC /* KWInequalityMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		00754DE8D87DBF2BF3972264FE59A4FE /* NSDictionary+TJCompatible.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2EB8302D12DDB404A05B9726B471FB /* NSDictionary+TJCompatible.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		029F300898377FBFF54F380EB61629C4 /* KWFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = F2ED646394DDD42E2F127302A201666C /* KWFailure.m */; };
 		041F24B065543E7B704E4C24582A94EF /* KWSymbolicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FA82675EBFCB740F3AD9A11C9561D8 /* KWSymbolicator.m */; };
-		0623C58E7FAA2C86B8BF7A7DEC14041C /* TJConvertible+Find.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A2ADD6ED9A17390EFFD4185787C760 /* TJConvertible+Find.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		070734A749CAE4C46A580C2490D8B376 /* TJConvertible+NSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B5449D07F439839334DB2C37264CFB8 /* TJConvertible+NSDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		098AC1528B572C95CFC02E336B1C32A6 /* KWContainMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC92A6768E4017401315E956BFAB0B1 /* KWContainMatcher.m */; };
 		0A4AE34F769275A271CC033506535251 /* NSObject+KiwiMockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9323B4A068FF1210718EEADAC260F9 /* NSObject+KiwiMockAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0A96FCDE5EB6249BF81507B921C54055 /* NSObject+KiwiVerifierAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD93865E20B29EF0ECA76284D10F108 /* NSObject+KiwiVerifierAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0ACA9270C1ADF1284E1B460716ECFC2A /* Pods-TypedJSON_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E15D79736FC15EFE9B842CD221B596 /* Pods-TypedJSON_Tests-dummy.m */; };
 		0D5A8FD52E8322CE08B16EBB8DB6A21A /* KWMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A70B047C86D39D4E54761C2FAB4857A /* KWMatching.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1143EC3D8C9B9FEF6F595F6E0785A80D /* TJConvertible+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D713603D6BB027CFA1A3B5B7988F4E5 /* TJConvertible+Empty.m */; };
+		10E8E6A35F40FE18D31FFCC59D52FD2D /* TJCompatible.h in Headers */ = {isa = PBXBuildFile; fileRef = 9129A5A1A8095BFE25109B755A454901 /* TJCompatible.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1143EC3D8C9B9FEF6F595F6E0785A80D /* TJConvertible+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBC3CADBD312F8514BD778230A88D7 /* TJConvertible+Empty.m */; };
 		124607FE2600CCB7972595FC4F6EBAFC /* KWHaveValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D2B1B1D6C5D1D6A2F71ACAF7C9F623 /* KWHaveValueMatcher.m */; };
 		12F578738F02594819CB0ADD0253F1E3 /* KWMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6E1B049BF104CB296E1317086D56D6 /* KWMock.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		15B0DC66473311E1FB1F11509824174A /* Kiwi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8E83D64817E83C286661807024EB65 /* Kiwi.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -26,17 +26,15 @@
 		175131798B56C6DD17C41B2636CB624D /* KWCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A29A0CCBF50ADED3B16054B685229F /* KWCallSite.m */; };
 		181935F08D12A0F1C835F7D060B60116 /* KWBeKindOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8EBEB3AD1AAE3AA28D1E20865D2CC /* KWBeKindOfClassMatcher.m */; };
 		18493A0BABE4C4C3F89F2675AFFC6487 /* KWBackgroundTask.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B1A9FFE080F94E409DB83CF8437AD9 /* KWBackgroundTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		190C1AD47EB8E70656BDBF02B3838B84 /* TJConvertible+Find.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A46F55F68582EC6819D5D6990BC269 /* TJConvertible+Find.m */; };
+		190C1AD47EB8E70656BDBF02B3838B84 /* TJConvertible+Find.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E90D075605B5FB4EAFCFD4FADDC71BA /* TJConvertible+Find.m */; };
 		191D1FB329ADA35BC780A214532FB020 /* KWAsyncVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB97511B15C935CA359E74B48E4209 /* KWAsyncVerifier.m */; };
 		1BB0DE56C8F34FA7C2731807FF82AD4D /* KWConformToProtocolMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F794329918659722C8FF8AB69302B60 /* KWConformToProtocolMatcher.m */; };
 		2210B9676916EC05501E69D00DB3D715 /* KWExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB6F63883BE816DCF8B54EF14AB9705 /* KWExample.m */; };
 		2210D4A502EFD8351A9ECD0AC0B3B4C7 /* KWSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B175ED697E40A69F70E2BB2A877FE3 /* KWSpec.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2339B49F2B9719BE27754E146395A4DD /* TJConvertible+Valuable.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F1D216B9F8481DC7478A720C8AE160 /* TJConvertible+Valuable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24BE83CB26E56C47AD8EDE44D2CAC60C /* TJConvertible+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = A38507D3298CFAC6A3B960F855BE9D27 /* TJConvertible+Empty.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26A31C6A0B294132158841348DAF90FA /* TJConvertible+Defaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9B37A596A3440C7377554B18D4D99A /* TJConvertible+Defaults.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		28A8D00357F99766C2D92C17820FC474 /* NSInvocation+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E287889FD33D02B8301CCEC95F79FE /* NSInvocation+KiwiAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		28C39F5A8878839F65D42B8FA0CCE3B5 /* KWBeforeEachNode.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3A21FF4DD4D73D6589CB5611939CBA /* KWBeforeEachNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		29AF32F97D57079E32F0BB55CBBB450B /* KWBeZeroMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEF689998B72681689E9F82DDE4B42 /* KWBeZeroMatcher.m */; };
+		2AB83E93DBFF64E5C0C9F253FC7A4B73 /* TJConvertible+Semantic.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CF9F5F3BEAAE1B771F2E8026999754 /* TJConvertible+Semantic.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2AF225A8067442A1B832C464BC2666D7 /* KWExampleNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F61A7AD653FC7A315F2B256CA384A522 /* KWExampleNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2B03ADD3A7DBC779825E35CE807B04D1 /* KWStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 62861D1079EA8AB5418EDFADEE01AEBE /* KWStringUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D266147551ACAE9BA1C936B9C7DACA9 /* KWGenericMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5796D05FCCDFFCBEF5017DC82A851B /* KWGenericMatcher.m */; };
@@ -59,36 +57,35 @@
 		387B25CA5B5087386484BEA90229D331 /* KWStringPrefixMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 194A592A452C89ECCEF819725D4FADB8 /* KWStringPrefixMatcher.m */; };
 		3A5A0BCB26FE5417F8014B0146FE1C73 /* KWEqualMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD3DA986CAD4F2B0CED95E95A08AFA9 /* KWEqualMatcher.m */; };
 		3AE4E4AF5A08516E20D3B4FA65646901 /* KWBeWithinMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E4A0CD660C1903F698FA43B8ED2283 /* KWBeWithinMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BA67A82BD6E9164B135E9618710EBFF /* TJDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 75678CD5B1E641FFCE77B7A877D2C4C0 /* TJDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3CFB50B58CF031676B26207E9320B9DE /* KWStringContainsMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E77E3BB009B5D1F4940DD32A823D2A5 /* KWStringContainsMatcher.m */; };
 		40DD730810AB0002C582903B68303CC5 /* KWBeSubclassOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E6C702215FC881CDA1C25838E9AC2 /* KWBeSubclassOfClassMatcher.m */; };
 		422C7DAAEBB776040CC2A9F61C028539 /* KWChangeMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8E77E4D49631E615C6E0F0537D55E3 /* KWChangeMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		426F72D1ED7226C244323B8ED8646797 /* KWBlockNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C4371F456D418E0A2ECC2FC6273BDB /* KWBlockNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		42A410BCC7E36E1115D59A74F419BF17 /* NSProxy+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D56332CB057D98C2B0C90AF35A259F /* NSProxy+KiwiVerifierAdditions.m */; };
-		457E8295F64F6A79F64B9C8110C49826 /* TJConvertible+Semantic.m in Sources */ = {isa = PBXBuildFile; fileRef = E72185A3511755FD2F20DE9DEF743351 /* TJConvertible+Semantic.m */; };
+		457E8295F64F6A79F64B9C8110C49826 /* TJConvertible+Semantic.m in Sources */ = {isa = PBXBuildFile; fileRef = 26901267F7A8846777D4945315FA0B9B /* TJConvertible+Semantic.m */; };
 		47587AE9DDA17C3CD3BE37DD3F7D126E /* KWStub.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8DCC1EE589033C788C6F4BE22D27BD /* KWStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		47C444F6FF8521F6409B98F9E52583B2 /* KWMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 47427ACCFC5F84250AB5804A99977C2B /* KWMock.m */; };
-		47DBA837B93C6BF8AEC88CF1B0667604 /* TypedJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC0B79AD2053FAAB29CFD646191A34F /* TypedJSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4ACAC03460B110E6557BDA731627F092 /* KWMatchVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A738451B657C478EDE8836300AAAE9B3 /* KWMatchVerifier.m */; };
 		4C3F4AD35F09B7D5A38E6ED06C4DCB88 /* KWStub.m in Sources */ = {isa = PBXBuildFile; fileRef = C9428E6572B9BBFA7F3DDEE819D68818 /* KWStub.m */; };
 		4CC499871B93AF554E97F25B23447118 /* NSObject+KiwiSpyAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66AF5FB59C39687866410D295BEF8EEF /* NSObject+KiwiSpyAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D30A5B32AE9E64399CF9B27996056D4 /* TypedJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D23612A1ACA25632DB35A071B1964620 /* TypedJSON-dummy.m */; };
+		4D30A5B32AE9E64399CF9B27996056D4 /* TypedJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8230DABA21A731D1D69CE4D25915F2D /* TypedJSON-dummy.m */; };
 		4EB0CF81C1B1CCAD84F20AF3201949CA /* KWMessagePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 829080E804A501D9047385DCA0908BAC /* KWMessagePattern.m */; };
 		50711EAB3C9195CA08E255C628F46626 /* KWMessageTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD8711FB0D109F458C1B64418DA616B /* KWMessageTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		51718FC0223FC5D9757B69DA1DFC722E /* KWBeEmptyMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA13C4ECC0CFC8362F7D61724F34C2 /* KWBeEmptyMatcher.m */; };
 		55CA86F7FC20D73E33810586E69CAA45 /* KWStringContainsMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4507495F805F7688C2912ACD9FDE83 /* KWStringContainsMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55E891C9B86164AF8F886DCE456C4A47 /* TJConvertible+As.h in Headers */ = {isa = PBXBuildFile; fileRef = D66E0D052F8D5C1E2B246FFB0E29F48E /* TJConvertible+As.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5A4602A00159304844A85F95DEA7B50D /* KWPendingNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1E7722804F17EFD311F25891918494 /* KWPendingNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5AFD8CDF90887C2457A8207D399D46D3 /* KWChangeMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E9D336F5CAD5B9EF081573F570B4A0 /* KWChangeMatcher.m */; };
 		5B0B9E4C8382828AFEB7CC89C519336F /* KWBeMemberOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2968FBFE37F519FA481D80B826E063C8 /* KWBeMemberOfClassMatcher.m */; };
 		5B489B556337D9D2B681C47F81D71DF0 /* KWBeKindOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4642C5CD253DC6D4FBBE171FFF0326A5 /* KWBeKindOfClassMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE6E61CFBEF27ABC762F8FCEC4CF87E /* NSValue+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4D92EA3B055CE04B029DE026826DCD /* NSValue+KiwiAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C01D61848FEFB1DEDE4D91C522BDAA1 /* TJConvertible+Semantic.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D23C8C96ADCE24D4AA587A1AA46617 /* TJConvertible+Semantic.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5CCA8C17C982D5C41AF87958CCDD4331 /* KWItNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA6F88C92A09ADE1E0D59ED6F69819F /* KWItNode.m */; };
 		5D1B59D94B9B294A50113B7B8578E58E /* Kiwi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C33D28ADC926B7A1A1F2CDAA0DF2207 /* Kiwi-dummy.m */; };
 		5DB36D8E5B81B4E3C7BCFFA5BBCC811D /* NSObject+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18927D026F9DBE4F60D45AB5B1AE27F2 /* NSObject+KiwiVerifierAdditions.m */; };
 		5F2410E1CB781F2A38929389AFC359D1 /* KWGenericMatchEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50001950E4B503DFB6CB7CD16D172C /* KWGenericMatchEvaluator.m */; };
-		5FC015E4891C6D9B54B731D92F108669 /* TJConvertible+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 0509B22641609F611B6C4235944DE1DB /* TJConvertible+Defaults.m */; };
+		5FC015E4891C6D9B54B731D92F108669 /* TJConvertible+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B265C451A580D17749E0B5A7861FAE03 /* TJConvertible+Defaults.m */; };
 		61D523619B6087529D25339EF9B21AEF /* KWAny.m in Sources */ = {isa = PBXBuildFile; fileRef = 14264C6FE19E8B56B7F8F6B01658DF89 /* KWAny.m */; };
-		6231E65EED1CF6519F3E3953D684C993 /* TJConvertible+NSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4CE13C2B9ED6E48EF3363ECD7FBCD1 /* TJConvertible+NSDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		634383EA32A8F4C6E826B9918668F30A /* KWHaveMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 500BE19BBE9C9A1F538C6CE651095840 /* KWHaveMatcher.m */; };
 		6398C165331FDB92C2DFC3516F0219C5 /* KWStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C81660083A9A62EEDDF5D6E5F4361B0C /* KWStringUtilities.m */; };
 		65426EF93BCB3DFA448FB4D27F64403D /* KWWorkarounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7CE6302D16F1D28482B0B06AC8D40A /* KWWorkarounds.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -119,9 +116,11 @@
 		8010B1D2DBEC088A6B2BA80C805FB378 /* KWSymbolicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 80734540B36C8E6F4EE84D5F8B6BCBA0 /* KWSymbolicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		80E747F938243FC854141E92BB68F269 /* KWAfterAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 25834FF1DE1DE49E2CF49275F71E38CB /* KWAfterAllNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		82CFBF172F830056ABC0DD7E95772EEA /* KWProbePoller.m in Sources */ = {isa = PBXBuildFile; fileRef = BC292E667714E059C8A34E2B36662801 /* KWProbePoller.m */; };
-		83E2B59601174E0C9AFBFE9690D05544 /* TJConvertible+As.h in Headers */ = {isa = PBXBuildFile; fileRef = 545F210D4DDF5503D68115B5ED62886A /* TJConvertible+As.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		846D8A2D01725F2206C24A0181510A19 /* KWRespondToSelectorMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A06341165F27022DF45E65BE772C70C /* KWRespondToSelectorMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		860B1E113742FE5DF3022ADEED730E19 /* Compatible-Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C1A50C517C421B8697EE180964AE64 /* Compatible-Tests.m */; };
 		861A1012D909D4259E7F5A0D9F024764 /* KWFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A6E1A196EA61B9FB1AFF26B82CAD69 /* KWFormatter.m */; };
+		87959DDCDBDACD846CC570D46CF090C7 /* TJConvertible+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3419FC85166A6164FAFBCC614891BF92 /* TJConvertible+Empty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87D386C64668033B57232A6C7A0829EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		8AA2D4DAEFB76A325D0F3C84B17A55E4 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B1FE7A1043429BEF4EF67C797CBBB7 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8BC59B509E4DB37520358943B2E4033D /* KWNotificationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE7C2C19B74BE1DFEF249B6F80D9A31 /* KWNotificationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C4DC5FEB005A3782CDB561B3B0D37B3 /* NSNumber+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D99DA1939445F00673645CA00C37B /* NSNumber+KiwiAdditions.m */; };
@@ -139,7 +138,7 @@
 		9819AB41FB1E62AB5E588DADE8D256B2 /* KWStringPrefixMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D84CB4C5B5B9F7031523F47C164260A /* KWStringPrefixMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		98ADDF63D8CDDF6818DBF3D84DAC0FD7 /* KWEqualMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D305FAB0ADB225149579030A0BBC981 /* KWEqualMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		98FD7A8281D5EE38AF6B9130C65EBA41 /* NSObject+KiwiStubAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1C55C10524DFE46648304099B9A215 /* NSObject+KiwiStubAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		996CE9E486F2D2E4581ECAA638205EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9B19646A940EFD6798AF98425912D63F /* NSDictionary+TJCompatible.h in Headers */ = {isa = PBXBuildFile; fileRef = 7772111526AB7C73AA02239057E45F0A /* NSDictionary+TJCompatible.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9DF0104027BE76D7F81335DE777EE304 /* KWNilMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA073F31BD3E283AEF4C591487B13B4 /* KWNilMatcher.m */; };
 		9EEF92996985B7A2FCDFF311D057A85A /* KWUserDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE434B764715D752D2B4E542D77FB02 /* KWUserDefinedMatcher.m */; };
 		9FAF83BD48B3E85F7DD911CACBDF8A8E /* KWObjCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 033DB887A3814C8159E11119CBBF0FF6 /* KWObjCUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -149,17 +148,20 @@
 		A375D7352B07C032F6B847233F767620 /* KWItNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6039D74A5AF912BCDBFEE5B599CBCBC1 /* KWItNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A39ADD3744E1281B6F599C35C312E7B2 /* KWMatcherFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0397A6C1AFC8191A145FBB288C18B15D /* KWMatcherFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A800A03C8FD128413AFE874BF7D593CF /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF5D55E14B05BF4729EE175FE1F023 /* NSInvocation+OCMAdditions.m */; };
-		A830923A82243B79150F859B4D775268 /* TJConvertible.h in Headers */ = {isa = PBXBuildFile; fileRef = B3596129EC53D6082B9A8D18CEF8B079 /* TJConvertible.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A9C2C0161272E35B22E4E773EE09FA8D /* Pods-TypedJSON_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B668B6F0EF88BD39504192A352085D7 /* Pods-TypedJSON_Example-dummy.m */; };
 		AC0A93EE1C36C1B179244EB7B26E7DBC /* KWBeZeroMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E9DE3E163F2F539654277FEE62DC8F /* KWBeZeroMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ADAE9B600686A89773D1EA83D831D16E /* KWBeIdenticalToMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 881591F1A2DF77D3E2CA7619B8320B82 /* KWBeIdenticalToMatcher.m */; };
 		AE4EEBD45EE02D598D133AED33E33949 /* KWNilMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF825A1A135B1173A058F94CDFF93AE /* KWNilMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B6E31F1B2BBC65380F5B6896C505D3C8 /* KWDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C5734034443C2CC4A24447A3DC11 /* KWDeviceInfo.m */; };
 		B84FC19AD9EAD9492BC451AE0C06C727 /* KWDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F686059EEE514DE7E5D91CB417CD8C /* KWDeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B8E2A0677A78F10F5280865D5AEDD86A /* TJConvertible+As.m in Sources */ = {isa = PBXBuildFile; fileRef = 698C6A646123486BBFFB6756A6CFE885 /* TJConvertible+As.m */; };
-		BABF42525C374EA118F2D0671EBE941E /* TJConvertible+NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408BDA7F8A7C275E7AAE64BAEA9C31C /* TJConvertible+NSDictionary.m */; };
+		B8E2A0677A78F10F5280865D5AEDD86A /* TJConvertible+As.m in Sources */ = {isa = PBXBuildFile; fileRef = D39509E85E0ECB174AA40524092B1120 /* TJConvertible+As.m */; };
+		BABF42525C374EA118F2D0671EBE941E /* TJConvertible+NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FA782D9F54F896D1881BD79DA7D578 /* TJConvertible+NSDictionary.m */; };
 		C00CC0A765B969F7F85CAE68D2FBA739 /* KWRespondToSelectorMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ABF23164C597DCD0B87A17CDA22A6F /* KWRespondToSelectorMatcher.m */; };
+		C124AC3C93FB783007F7F4F24500F0B4 /* Check-Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22BAEAED84A1075889770EA178D19B /* Check-Tests.m */; };
+		C18EFA5A467CD14330363AD4EE64DFB0 /* TJConvertible+Find.h in Headers */ = {isa = PBXBuildFile; fileRef = F777DE175E89A1349B1CC8D72F2CFB97 /* TJConvertible+Find.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C23C5B65E4497E985168F724DB9D04B2 /* NSDictionary+Compatible-Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D36CAD35CB83314DDF77684DA0C9BC7 /* NSDictionary+Compatible-Tests.m */; };
 		C3080FE552D5A19F418406E6658E967A /* NSValue+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3FF344A814B2F9C0216061BC9A24C2 /* NSValue+KiwiAdditions.m */; };
+		C32FEA86DE361359109B5FE228EEFA10 /* TypedJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EBD9F9A598FBD77F24A3B5CF7E64FB /* TypedJSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C424F8D5C078E7201173EDEDFD5824BF /* KWAny.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CC329F862ABF24F8B70CFA8CAD8278 /* KWAny.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C4E7F5A26876B6E99FC0768099FD0251 /* KWBlockRaiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B150C52941D92B12FC9C2701EB791F /* KWBlockRaiseMatcher.m */; };
 		C563052D6C1B9B4BA426760A2CD5F304 /* KWMatchVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = B02CC782A2C10B6472004DFA5E4474C9 /* KWMatchVerifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -174,10 +176,10 @@
 		CF98129E474EF2126C2645D745BA3351 /* KWBeEmptyMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9C06D26C43EBE6BC85664C1FDED74C /* KWBeEmptyMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D011EFCC33C3BC71C4599AA9307F9A2D /* KWBeforeEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A3419B577A96A7B94C6CD63D0C9BACAA /* KWBeforeEachNode.m */; };
 		D03D13AF8C787AC2DA86CA06F4B383A7 /* NSNumber+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2B400E29DA78F961CD14A69C9EA594 /* NSNumber+KiwiAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D06CF610BD8E7F36FABFCA2C8884FE69 /* NSDictionary+TJCompatible.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7406A756B8FD8985F67D95EFA52B5A /* NSDictionary+TJCompatible.m */; };
+		D06CF610BD8E7F36FABFCA2C8884FE69 /* NSDictionary+TJCompatible.m in Sources */ = {isa = PBXBuildFile; fileRef = 993B2A60C1EB17F622AAACCA66AFEEB6 /* NSDictionary+TJCompatible.m */; };
+		D2AB370D63C55BE9DD94FFCFCB6C750E /* TJConvertible+Valuable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5AB81517A13B3F84B4BDD909242FDC /* TJConvertible+Valuable.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D4E002082B47F0CA2E4AF0700989756C /* KWBeforeAllNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6042A90742213751F3C6D19B163D37AB /* KWBeforeAllNode.m */; };
 		D563D3A0DFE7D2C615563561A2019853 /* KWGenericMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7FE3B1E3745C9B82BCABC32F0FEAC7 /* KWGenericMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6C130F28B6746CD473AAADE657E6664 /* Compatible-Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B3AB0FDF698FCA3C2BDD08AEF6FE9 /* Compatible-Tests.m */; };
 		D71074D38B715D993C77D52DE0C5E471 /* KWMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A47E9EF0B3862A259555A27003F7AA1 /* KWMatcher.m */; };
 		D72AA3B7662D91C349EE52B6D31E450A /* KWProbe.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB71309740C80B416199032A3E8D5C3 /* KWProbe.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D803A9428EE6618572EBF289DD49B1F4 /* KWIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = C222FA1DAA7AEFB9EDD6F89AA5C8E3C5 /* KWIntercept.m */; };
@@ -188,15 +190,13 @@
 		DCD4CAB532EA8008F0B6E359B7F3CC9A /* KWExpectationType.h in Headers */ = {isa = PBXBuildFile; fileRef = FB90A115D0AA71716F00F11BFC1D9665 /* KWExpectationType.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DD058BBBE7410B650F3A0BD45F2D5AF1 /* KWSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C80738443F0D6D90D1927C9748131E9D /* KWSpec.m */; };
 		DDEB001A3B435A88582C1719E5035BE1 /* KWFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C675DE2968E194D069542F91BB2549CE /* KWFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE31E8C6FC994FC10AB34694B698DA08 /* TJCompatible.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D674FC3A266CAC5E21DF8F4255B6C0 /* TJCompatible.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E1B1E79650E085CFD5B7B6186B431E35 /* KWValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A95275A86DB99FD756F3C23E7BC63B /* KWValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E3912BB0FC3B4DCC7372C579FEEA533C /* KWRegisterMatchersNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DE1C45884584235452A7E32B1B9685 /* KWRegisterMatchersNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E5356EDEA7BF5D3AA1502D843110A4A5 /* KWVerifying.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFA5C848FAB291F2F3CF0942F9654F8 /* KWVerifying.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E61E18773B7B51161FE4208FBBAC4EFF /* KWMessagePattern.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F8826760353FBD95A195010F4D3BB0 /* KWMessagePattern.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E66C09615628517D403323BF83059860 /* NSMethodSignature+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4EA7291DD6E3D57F0852CA213BF16 /* NSMethodSignature+KiwiAdditions.m */; };
 		E78432B47926230FE09E1FCC9D4E4883 /* KiwiBlockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A2418CC0048C3C5BE5F5C8405C7AD884 /* KiwiBlockMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E79050EFE91EDF8E9DC5C3776E722D52 /* NSDictionary+Compatible-Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062CB34FEFACD330FE819B7A1D9603ED /* NSDictionary+Compatible-Tests.m */; };
-		E7BE812D74B4351342E6E08FEE9EBC3F /* TJConvertible.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DE585FD186CBB3AB0EF48272C748E /* TJConvertible.m */; };
+		E7BE812D74B4351342E6E08FEE9EBC3F /* TJConvertible.m in Sources */ = {isa = PBXBuildFile; fileRef = F86627E3DC9361F8A6B9B626D6238534 /* TJConvertible.m */; };
 		E9D218F8E1361E8AB7DC95966BE94987 /* KWAfterEachNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AACCF2EED5A4E55C875C02EC1111C1B /* KWAfterEachNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EC2E422F46C5E9975A4BBA4BF66D3DDB /* KWExistVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE80F3676B21FAE6255ED59E725BFD /* KWExistVerifier.m */; };
 		EC6108A553912F7C90EA5BFEA6F56CD1 /* KWBeIdenticalToMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 782385CA2C9A5E46BF499A693485F39C /* KWBeIdenticalToMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -205,6 +205,7 @@
 		EE91772C850F82CE3AEEF19A1F2066A1 /* KWExampleSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D7DEF60CE2491D6CB4CFC41E4119CD /* KWExampleSuite.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F1BD3B738EA91EEA7CF91A75EEE6CC8A /* KWReporting.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4EC1AD2C59B70EC417C6197B32A3A2 /* KWReporting.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F48BDD73328BCDA3796C4C92CAF95B35 /* KWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D69573561BDC3592D68084C85CBC5D /* KWBlock.m */; };
+		F4958E84C07E57A34594CDDBCBE20342 /* TJConvertible+Defaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CCC8DF0A499F955BF5BD8CCE8D9315 /* TJConvertible+Defaults.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F4CE6973E802D7710FD9B3597CF4DCAF /* KWSharedExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BC1740557C418C508A87A8FBB5C5F1 /* KWSharedExample.m */; };
 		F68E28DE2F9979DAA3424A90C48A1C83 /* NSObject+KiwiMockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289BE6C2539EE6258E2FFF44CCF8B60 /* NSObject+KiwiMockAdditions.m */; };
 		F7DFFD1E1D13AC9DAD0B7A9ACF3B893A /* KWLetNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FCE75F417DD2F799A77290A516D79F /* KWLetNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -215,7 +216,8 @@
 		FB6DDABDF6C0B2F36F4CC63F3E9E5C8E /* KWSuiteConfigurationBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3501D848A234FA132386BC13E680D806 /* KWSuiteConfigurationBase.m */; };
 		FC00BCA6DAA36F0070B889BD7DCBC6F1 /* KWExample.h in Headers */ = {isa = PBXBuildFile; fileRef = D1683BAEF1CDB24D769FCE2DC58FD044 /* KWExample.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC273621F2BBA728D16F46A49D4EA001 /* KWContextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB63D4F0D7803F9E9B30EB6BC827327 /* KWContextNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FDA4011D3AFF4CD6F19F54A8047E703D /* TJConvertible+Valuable.m in Sources */ = {isa = PBXBuildFile; fileRef = 549A035ED0F384E0BA4E92C016943E88 /* TJConvertible+Valuable.m */; };
+		FDA4011D3AFF4CD6F19F54A8047E703D /* TJConvertible+Valuable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC1FFBAD4B65934D79C1AC764C01F09 /* TJConvertible+Valuable.m */; };
+		FDB93EDA0363A7C399D5F79B6497A078 /* TJConvertible.h in Headers */ = {isa = PBXBuildFile; fileRef = 3037A8C01827CDAA83BAFA6DF96E3038 /* TJConvertible.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FE751AE2F74706351F44DC52B7554BE2 /* KWUserDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4DF8DBDFD2FDCB0D3A708E7344BC38 /* KWUserDefinedMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FF19DD06791016CD677FE19CB4D62FD0 /* KWAfterEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1AB88E65678C2F9D06BA4D0B9C8F79 /* KWAfterEachNode.m */; };
 /* End PBXBuildFile section */
@@ -235,14 +237,14 @@
 			remoteGlobalIDString = 3147DDC5BAE846D10D3FC72F1C5BB0A8;
 			remoteInfo = "Pods-TypedJSON_Example";
 		};
-		1BFFB05C856F049E3B7373440D0D08AD /* PBXContainerItemProxy */ = {
+		4B0CF3D22D82F1C0460EE4EF4021F792 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DDD36539619B082CA8610324BEE81936;
 			remoteInfo = TypedJSON;
 		};
-		38D8C5F9D8242AF3799D420812C6A5CA /* PBXContainerItemProxy */ = {
+		502E15EC59E78C0BCF2390B264911102 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -263,14 +265,11 @@
 		01F2C0B89B305D77985A23710040A6F4 /* KWObjCUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWObjCUtilities.m; path = Classes/Core/KWObjCUtilities.m; sourceTree = "<group>"; };
 		02C012CD50B6C62361F47CB6ECA7BCA9 /* KWAllTestsSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAllTestsSuite.m; path = Classes/Config/KWAllTestsSuite.m; sourceTree = "<group>"; };
 		033DB887A3814C8159E11119CBBF0FF6 /* KWObjCUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWObjCUtilities.h; path = Classes/Core/KWObjCUtilities.h; sourceTree = "<group>"; };
-		0353E903B950B408D40C6DC61298EA70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0397A6C1AFC8191A145FBB288C18B15D /* KWMatcherFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcherFactory.h; path = Classes/Core/KWMatcherFactory.h; sourceTree = "<group>"; };
 		04D37576E76430E1EB4FCD993A4BDA54 /* KWSharedExampleRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSharedExampleRegistry.m; path = "Classes/Shared Examples/KWSharedExampleRegistry.m"; sourceTree = "<group>"; };
 		04E287889FD33D02B8301CCEC95F79FE /* NSInvocation+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+KiwiAdditions.h"; path = "Classes/Core/NSInvocation+KiwiAdditions.h"; sourceTree = "<group>"; };
-		0509B22641609F611B6C4235944DE1DB /* TJConvertible+Defaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Defaults.m"; sourceTree = "<group>"; };
 		050CCB2AB6063BABC2E1883E5028B681 /* KWMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcher.h; path = Classes/Core/KWMatcher.h; sourceTree = "<group>"; };
 		0619EECE3FC645655408F798C6406B1F /* KWContainStringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContainStringMatcher.h; path = Classes/Matchers/KWContainStringMatcher.h; sourceTree = "<group>"; };
-		062CB34FEFACD330FE819B7A1D9603ED /* NSDictionary+Compatible-Tests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Compatible-Tests.m"; path = "TypedJSON/Tests/NSDictionary+Compatible-Tests.m"; sourceTree = "<group>"; };
 		06E9DE3E163F2F539654277FEE62DC8F /* KWBeZeroMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeZeroMatcher.h; path = Classes/Matchers/KWBeZeroMatcher.h; sourceTree = "<group>"; };
 		074435FBA275538D066113A722286B48 /* NSProxy+KiwiVerifierAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSProxy+KiwiVerifierAdditions.h"; path = "Classes/Core/NSProxy+KiwiVerifierAdditions.h"; sourceTree = "<group>"; };
 		0C14B9FE88BCD4A3EB7E01906169CB72 /* KWMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchers.h; path = Classes/Core/KWMatchers.h; sourceTree = "<group>"; };
@@ -286,32 +285,37 @@
 		18927D026F9DBE4F60D45AB5B1AE27F2 /* NSObject+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiVerifierAdditions.m"; path = "Classes/Core/NSObject+KiwiVerifierAdditions.m"; sourceTree = "<group>"; };
 		194A592A452C89ECCEF819725D4FADB8 /* KWStringPrefixMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringPrefixMatcher.m; path = Classes/Matchers/KWStringPrefixMatcher.m; sourceTree = "<group>"; };
 		1A70B047C86D39D4E54761C2FAB4857A /* KWMatching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatching.h; path = Classes/Core/KWMatching.h; sourceTree = "<group>"; };
+		1D5AB81517A13B3F84B4BDD909242FDC /* TJConvertible+Valuable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Valuable.h"; sourceTree = "<group>"; };
 		1E9F09CBF58F393A062598353C2B2F56 /* libKiwi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKiwi.a; path = libKiwi.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		206F3250F9EB4FAF327FDA5B4F22BB58 /* KWGenericMatchingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatchingAdditions.h; path = Classes/Matchers/KWGenericMatchingAdditions.h; sourceTree = "<group>"; };
 		21D2B1B1D6C5D1D6A2F71ACAF7C9F623 /* KWHaveValueMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWHaveValueMatcher.m; path = Classes/Matchers/KWHaveValueMatcher.m; sourceTree = "<group>"; };
 		23804E5806236DEA0D9A3F86A85EAD7C /* KWGenericMatchingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatchingAdditions.m; path = Classes/Matchers/KWGenericMatchingAdditions.m; sourceTree = "<group>"; };
 		25834FF1DE1DE49E2CF49275F71E38CB /* KWAfterAllNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAfterAllNode.h; path = Classes/Nodes/KWAfterAllNode.h; sourceTree = "<group>"; };
+		26901267F7A8846777D4945315FA0B9B /* TJConvertible+Semantic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Semantic.m"; sourceTree = "<group>"; };
 		2799D09B099A129969A17B4431EBB781 /* KWBlockRaiseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockRaiseMatcher.h; path = Classes/Matchers/KWBlockRaiseMatcher.h; sourceTree = "<group>"; };
-		27A2ADD6ED9A17390EFFD4185787C760 /* TJConvertible+Find.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Find.h"; sourceTree = "<group>"; };
 		2968FBFE37F519FA481D80B826E063C8 /* KWBeMemberOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeMemberOfClassMatcher.m; path = Classes/Matchers/KWBeMemberOfClassMatcher.m; sourceTree = "<group>"; };
 		2A47E9EF0B3862A259555A27003F7AA1 /* KWMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatcher.m; path = Classes/Core/KWMatcher.m; sourceTree = "<group>"; };
 		2B4EC1AD2C59B70EC417C6197B32A3A2 /* KWReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReporting.h; path = Classes/Core/KWReporting.h; sourceTree = "<group>"; };
 		2C7CE6302D16F1D28482B0B06AC8D40A /* KWWorkarounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWWorkarounds.h; path = Classes/Core/KWWorkarounds.h; sourceTree = "<group>"; };
 		2D84CB4C5B5B9F7031523F47C164260A /* KWStringPrefixMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringPrefixMatcher.h; path = Classes/Matchers/KWStringPrefixMatcher.h; sourceTree = "<group>"; };
 		2EAA13C4ECC0CFC8362F7D61724F34C2 /* KWBeEmptyMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeEmptyMatcher.m; path = Classes/Matchers/KWBeEmptyMatcher.m; sourceTree = "<group>"; };
+		3037A8C01827CDAA83BAFA6DF96E3038 /* TJConvertible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJConvertible.h; path = TypedJSON/Classes/TJConvertible.h; sourceTree = "<group>"; };
 		336972F83DCD6015BE20B39E803B5504 /* NSObject+KiwiSpyAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiSpyAdditions.m"; path = "Classes/Core/NSObject+KiwiSpyAdditions.m"; sourceTree = "<group>"; };
+		3419FC85166A6164FAFBCC614891BF92 /* TJConvertible+Empty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Empty.h"; sourceTree = "<group>"; };
 		345627FF58A23D67CCD5C3143850205E /* KWBeTrueMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeTrueMatcher.m; path = Classes/Matchers/KWBeTrueMatcher.m; sourceTree = "<group>"; };
 		3501D848A234FA132386BC13E680D806 /* KWSuiteConfigurationBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSuiteConfigurationBase.m; path = Classes/Config/KWSuiteConfigurationBase.m; sourceTree = "<group>"; };
 		37A825D07ADCE571D629981E7531DEBA /* KWLet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWLet.h; path = Classes/Core/KWLet.h; sourceTree = "<group>"; };
 		38A95275A86DB99FD756F3C23E7BC63B /* KWValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWValue.h; path = Classes/Core/KWValue.h; sourceTree = "<group>"; };
-		3A9B37A596A3440C7377554B18D4D99A /* TJConvertible+Defaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Defaults.h"; sourceTree = "<group>"; };
 		3AFA96E949783C025F17406699EB9B49 /* KWCountType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCountType.h; path = Classes/Core/KWCountType.h; sourceTree = "<group>"; };
+		3B5449D07F439839334DB2C37264CFB8 /* TJConvertible+NSDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+NSDictionary.h"; sourceTree = "<group>"; };
 		3BAE80F3676B21FAE6255ED59E725BFD /* KWExistVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExistVerifier.m; path = Classes/Verifiers/KWExistVerifier.m; sourceTree = "<group>"; };
 		3C5597902587425F1C4A3423B1D851BC /* KWInequalityMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWInequalityMatcher.h; path = Classes/Matchers/KWInequalityMatcher.h; sourceTree = "<group>"; };
 		3D4507495F805F7688C2912ACD9FDE83 /* KWStringContainsMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringContainsMatcher.h; path = Classes/Matchers/KWStringContainsMatcher.h; sourceTree = "<group>"; };
 		3D8393E5ED9901F83A08CDDF6B84C233 /* KWHaveMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWHaveMatcher.h; path = Classes/Matchers/KWHaveMatcher.h; sourceTree = "<group>"; };
 		3E2B400E29DA78F961CD14A69C9EA594 /* NSNumber+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+KiwiAdditions.h"; path = "Classes/Core/NSNumber+KiwiAdditions.h"; sourceTree = "<group>"; };
+		3E8CE31E44D29A54162DA0491B3F7119 /* TypedJSON-Unit-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TypedJSON-Unit-Tests-resources.sh"; sourceTree = "<group>"; };
 		3EE4EA7291DD6E3D57F0852CA213BF16 /* NSMethodSignature+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+KiwiAdditions.m"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.m"; sourceTree = "<group>"; };
+		40020FA9B8C6CCCF9A11BD885FFB1B2E /* TypedJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TypedJSON-prefix.pch"; sourceTree = "<group>"; };
 		40D0D1D77AF3827F3D8360A9A4553725 /* KWConformToProtocolMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWConformToProtocolMatcher.h; path = Classes/Matchers/KWConformToProtocolMatcher.h; sourceTree = "<group>"; };
 		410210AA57B4C4A8353F80208A2AB4ED /* KWContainStringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContainStringMatcher.m; path = Classes/Matchers/KWContainStringMatcher.m; sourceTree = "<group>"; };
 		422D870A001AB728C8AD79B74E1A33AF /* KWBeTrueMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeTrueMatcher.h; path = Classes/Matchers/KWBeTrueMatcher.h; sourceTree = "<group>"; };
@@ -320,66 +324,63 @@
 		4642C5CD253DC6D4FBBE171FFF0326A5 /* KWBeKindOfClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeKindOfClassMatcher.h; path = Classes/Matchers/KWBeKindOfClassMatcher.h; sourceTree = "<group>"; };
 		46C627868134C47463393B7BE974120D /* KWFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFailure.h; path = Classes/Core/KWFailure.h; sourceTree = "<group>"; };
 		47427ACCFC5F84250AB5804A99977C2B /* KWMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMock.m; path = Classes/Mocking/KWMock.m; sourceTree = "<group>"; };
-		47AD7387EAE6A1041E50729D829247D0 /* TypedJSON-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TypedJSON-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
+		475342DEF57905BEF1CEB3D4822CCDAF /* TypedJSON-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TypedJSON-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
 		48A6E1A196EA61B9FB1AFF26B82CAD69 /* KWFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFormatter.m; path = Classes/Core/KWFormatter.m; sourceTree = "<group>"; };
+		48CCC8DF0A499F955BF5BD8CCE8D9315 /* TJConvertible+Defaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Defaults.h"; sourceTree = "<group>"; };
 		4A5796D05FCCDFFCBEF5017DC82A851B /* KWGenericMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatcher.m; path = Classes/Matchers/KWGenericMatcher.m; sourceTree = "<group>"; };
-		4B4CE13C2B9ED6E48EF3363ECD7FBCD1 /* TJConvertible+NSDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+NSDictionary.h"; sourceTree = "<group>"; };
 		4B50001950E4B503DFB6CB7CD16D172C /* KWGenericMatchEvaluator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatchEvaluator.m; path = Classes/Matchers/KWGenericMatchEvaluator.m; sourceTree = "<group>"; };
 		4C1AB88E65678C2F9D06BA4D0B9C8F79 /* KWAfterEachNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAfterEachNode.m; path = Classes/Nodes/KWAfterEachNode.m; sourceTree = "<group>"; };
+		4C22BAEAED84A1075889770EA178D19B /* Check-Tests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Check-Tests.m"; path = "TypedJSON/Tests/Check-Tests.m"; sourceTree = "<group>"; };
 		4E8E41D8F5FF8813C93BB1637308F97F /* Pods-TypedJSON_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TypedJSON_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		500BE19BBE9C9A1F538C6CE651095840 /* KWHaveMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWHaveMatcher.m; path = Classes/Matchers/KWHaveMatcher.m; sourceTree = "<group>"; };
 		5446E849832AB01DE2B423C3CC3FFABC /* KWHaveValueMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWHaveValueMatcher.h; path = Classes/Matchers/KWHaveValueMatcher.h; sourceTree = "<group>"; };
-		545F210D4DDF5503D68115B5ED62886A /* TJConvertible+As.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+As.h"; sourceTree = "<group>"; };
-		549A035ED0F384E0BA4E92C016943E88 /* TJConvertible+Valuable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Valuable.m"; sourceTree = "<group>"; };
+		5580F1D840EB6CCFA9B4229D5CE84B70 /* TypedJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TypedJSON.xcconfig; sourceTree = "<group>"; };
 		58D56332CB057D98C2B0C90AF35A259F /* NSProxy+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProxy+KiwiVerifierAdditions.m"; path = "Classes/Core/NSProxy+KiwiVerifierAdditions.m"; sourceTree = "<group>"; };
 		59FA82675EBFCB740F3AD9A11C9561D8 /* KWSymbolicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSymbolicator.m; path = Classes/Core/KWSymbolicator.m; sourceTree = "<group>"; };
-		5B2EB8302D12DDB404A05B9726B471FB /* NSDictionary+TJCompatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TJCompatible.h"; sourceTree = "<group>"; };
 		5BB71309740C80B416199032A3E8D5C3 /* KWProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbe.h; path = Classes/Core/KWProbe.h; sourceTree = "<group>"; };
 		5BD8711FB0D109F458C1B64418DA616B /* KWMessageTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessageTracker.h; path = Classes/Core/KWMessageTracker.h; sourceTree = "<group>"; };
 		5CC5FAB68D56F106775B01A00C84CD6B /* KWFutureObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFutureObject.h; path = Classes/Core/KWFutureObject.h; sourceTree = "<group>"; };
-		5D713603D6BB027CFA1A3B5B7988F4E5 /* TJConvertible+Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Empty.m"; sourceTree = "<group>"; };
+		5DC1FFBAD4B65934D79C1AC764C01F09 /* TJConvertible+Valuable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Valuable.m"; sourceTree = "<group>"; };
 		5E8E83D64817E83C286661807024EB65 /* Kiwi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kiwi.h; path = Classes/Core/Kiwi.h; sourceTree = "<group>"; };
+		5E90D075605B5FB4EAFCFD4FADDC71BA /* TJConvertible+Find.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Find.m"; sourceTree = "<group>"; };
 		6039D74A5AF912BCDBFEE5B599CBCBC1 /* KWItNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWItNode.h; path = Classes/Nodes/KWItNode.h; sourceTree = "<group>"; };
 		6042A90742213751F3C6D19B163D37AB /* KWBeforeAllNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeforeAllNode.m; path = Classes/Nodes/KWBeforeAllNode.m; sourceTree = "<group>"; };
 		60ADEDBE64099C0F656207E9D27FFDF0 /* KWExampleSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExampleSuiteBuilder.m; path = Classes/Core/KWExampleSuiteBuilder.m; sourceTree = "<group>"; };
+		615ED14C1F97F765F125C88C693EB68E /* TypedJSON-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TypedJSON-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
 		62861D1079EA8AB5418EDFADEE01AEBE /* KWStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringUtilities.h; path = Classes/Core/KWStringUtilities.h; sourceTree = "<group>"; };
 		633D99DA1939445F00673645CA00C37B /* NSNumber+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+KiwiAdditions.m"; path = "Classes/Core/NSNumber+KiwiAdditions.m"; sourceTree = "<group>"; };
-		63DB51CEB9B48A02CD21525EF0C05407 /* TypedJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TypedJSON.xcconfig; sourceTree = "<group>"; };
 		66A851C587FB1708DD85B0A005693A9E /* KWSuiteConfigurationBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSuiteConfigurationBase.h; path = Classes/Config/KWSuiteConfigurationBase.h; sourceTree = "<group>"; };
 		66AF5FB59C39687866410D295BEF8EEF /* NSObject+KiwiSpyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiSpyAdditions.h"; path = "Classes/Core/NSObject+KiwiSpyAdditions.h"; sourceTree = "<group>"; };
 		67C5F81D3B59BEAA6C8025F7213B220A /* KWBeWithinMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeWithinMatcher.m; path = Classes/Matchers/KWBeWithinMatcher.m; sourceTree = "<group>"; };
-		68B0432A0CED63EB13F947CD215236B1 /* TypedJSON.unit-tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TypedJSON.unit-tests.xcconfig"; sourceTree = "<group>"; };
-		698C6A646123486BBFFB6756A6CFE885 /* TJConvertible+As.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+As.m"; sourceTree = "<group>"; };
 		6A06341165F27022DF45E65BE772C70C /* KWRespondToSelectorMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRespondToSelectorMatcher.h; path = Classes/Matchers/KWRespondToSelectorMatcher.h; sourceTree = "<group>"; };
 		6A1E7722804F17EFD311F25891918494 /* KWPendingNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWPendingNode.h; path = Classes/Nodes/KWPendingNode.h; sourceTree = "<group>"; };
+		6A2EF677C3A130213675EDE62C3CEDD5 /* TypedJSON.unit-tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TypedJSON.unit-tests.xcconfig"; sourceTree = "<group>"; };
 		6B668B6F0EF88BD39504192A352085D7 /* Pods-TypedJSON_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TypedJSON_Example-dummy.m"; sourceTree = "<group>"; };
+		6C38AC050554030AEE60D42AC2A3D330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6D2AFA013FC78212B3EA342D516B5B04 /* libPods-TypedJSON_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TypedJSON_Example.a"; path = "libPods-TypedJSON_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D36CAD35CB83314DDF77684DA0C9BC7 /* NSDictionary+Compatible-Tests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Compatible-Tests.m"; path = "TypedJSON/Tests/NSDictionary+Compatible-Tests.m"; sourceTree = "<group>"; };
 		6D6E1B049BF104CB296E1317086D56D6 /* KWMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMock.h; path = Classes/Mocking/KWMock.h; sourceTree = "<group>"; };
 		6DA221AD59F94E71F174982337BCE5EC /* TypedJSON-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TypedJSON-Unit-Tests"; path = "TypedJSON-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DC0B79AD2053FAAB29CFD646191A34F /* TypedJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TypedJSON.h; path = TypedJSON/Classes/TypedJSON.h; sourceTree = "<group>"; };
 		6E45CE9A97F22B92D10F3ED800EFE8BE /* KWExistVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExistVerifier.h; path = Classes/Verifiers/KWExistVerifier.h; sourceTree = "<group>"; };
 		7130F1B67B6DD68D989B76DD62CFB0D1 /* KWSharedExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSharedExample.h; path = "Classes/Shared Examples/KWSharedExample.h"; sourceTree = "<group>"; };
-		72A46F55F68582EC6819D5D6990BC269 /* TJConvertible+Find.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Find.m"; sourceTree = "<group>"; };
-		72C647AAC07B6004B029634990FDE71B /* TypedJSON-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TypedJSON-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		737B3AB0FDF698FCA3C2BDD08AEF6FE9 /* Compatible-Tests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Compatible-Tests.m"; path = "TypedJSON/Tests/Compatible-Tests.m"; sourceTree = "<group>"; };
-		743CD80696DC4936E5318440F08C56D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73A408CDFE5224F0CF1101D9F338AADF /* TypedJSON-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TypedJSON-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
+		75678CD5B1E641FFCE77B7A877D2C4C0 /* TJDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJDefine.h; path = TypedJSON/Classes/TJDefine.h; sourceTree = "<group>"; };
+		7772111526AB7C73AA02239057E45F0A /* NSDictionary+TJCompatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TJCompatible.h"; sourceTree = "<group>"; };
 		782385CA2C9A5E46BF499A693485F39C /* KWBeIdenticalToMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeIdenticalToMatcher.h; path = Classes/Matchers/KWBeIdenticalToMatcher.h; sourceTree = "<group>"; };
 		78BC1740557C418C508A87A8FBB5C5F1 /* KWSharedExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSharedExample.m; path = "Classes/Shared Examples/KWSharedExample.m"; sourceTree = "<group>"; };
+		78FA782D9F54F896D1881BD79DA7D578 /* TJConvertible+NSDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+NSDictionary.m"; sourceTree = "<group>"; };
 		7A78604E1BF970CB65BAB81F3E7BFC09 /* KWExampleSuiteBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleSuiteBuilder.h; path = Classes/Core/KWExampleSuiteBuilder.h; sourceTree = "<group>"; };
 		7AAEF689998B72681689E9F82DDE4B42 /* KWBeZeroMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeZeroMatcher.m; path = Classes/Matchers/KWBeZeroMatcher.m; sourceTree = "<group>"; };
 		7AB0EFE4D25B53FE8BACF42484892178 /* Pods-TypedJSON_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TypedJSON_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7D305FAB0ADB225149579030A0BBC981 /* KWEqualMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWEqualMatcher.h; path = Classes/Matchers/KWEqualMatcher.h; sourceTree = "<group>"; };
-		7D7A779B963C4B2024A43E8E04EFEA2B /* TypedJSON.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TypedJSON.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7DA073F31BD3E283AEF4C591487B13B4 /* KWNilMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNilMatcher.m; path = Classes/Matchers/KWNilMatcher.m; sourceTree = "<group>"; };
-		7DF12D7E68A5D85BC8B3110F4FC169B2 /* TypedJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TypedJSON-prefix.pch"; sourceTree = "<group>"; };
 		7EC8EBEB3AD1AAE3AA28D1E20865D2CC /* KWBeKindOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeKindOfClassMatcher.m; path = Classes/Matchers/KWBeKindOfClassMatcher.m; sourceTree = "<group>"; };
 		7F35D4D5FC7BF7FE498D4EE7FFD8D84D /* KWMessageTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessageTracker.m; path = Classes/Core/KWMessageTracker.m; sourceTree = "<group>"; };
 		7F7FE3B1E3745C9B82BCABC32F0FEAC7 /* KWGenericMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatcher.h; path = Classes/Matchers/KWGenericMatcher.h; sourceTree = "<group>"; };
+		7FEBC3CADBD312F8514BD778230A88D7 /* TJConvertible+Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Empty.m"; sourceTree = "<group>"; };
 		80734540B36C8E6F4EE84D5F8B6BCBA0 /* KWSymbolicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSymbolicator.h; path = Classes/Core/KWSymbolicator.h; sourceTree = "<group>"; };
 		829080E804A501D9047385DCA0908BAC /* KWMessagePattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessagePattern.m; path = Classes/Core/KWMessagePattern.m; sourceTree = "<group>"; };
 		83536F841F9AAE717EE03E166C349603 /* Pods-TypedJSON_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TypedJSON_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		83D674FC3A266CAC5E21DF8F4255B6C0 /* TJCompatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJCompatible.h; path = TypedJSON/Classes/TJCompatible.h; sourceTree = "<group>"; };
-		8408BDA7F8A7C275E7AAE64BAEA9C31C /* TJConvertible+NSDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+NSDictionary.m"; sourceTree = "<group>"; };
 		86B423B9914EC95083DD08D72F177745 /* KWExampleNodeVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleNodeVisitor.h; path = Classes/Core/KWExampleNodeVisitor.h; sourceTree = "<group>"; };
 		874570B005DBCF9A8C202327D7288560 /* NSObject+KiwiStubAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiStubAdditions.m"; path = "Classes/Stubbing/NSObject+KiwiStubAdditions.m"; sourceTree = "<group>"; };
 		881591F1A2DF77D3E2CA7619B8320B82 /* KWBeIdenticalToMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeIdenticalToMatcher.m; path = Classes/Matchers/KWBeIdenticalToMatcher.m; sourceTree = "<group>"; };
@@ -388,13 +389,14 @@
 		8CFB1779C3BA95CC40BD13C6233CFC94 /* KWExampleSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExampleSuite.m; path = Classes/Core/KWExampleSuite.m; sourceTree = "<group>"; };
 		901097A73057A14F5B218505F3CB643C /* KWInequalityMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWInequalityMatcher.m; path = Classes/Matchers/KWInequalityMatcher.m; sourceTree = "<group>"; };
 		90CB97511B15C935CA359E74B48E4209 /* KWAsyncVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAsyncVerifier.m; path = Classes/Verifiers/KWAsyncVerifier.m; sourceTree = "<group>"; };
+		9129A5A1A8095BFE25109B755A454901 /* TJCompatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJCompatible.h; path = TypedJSON/Classes/TJCompatible.h; sourceTree = "<group>"; };
 		9131508911F211657D5C71F9AB7384BE /* KiwiConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiConfiguration.h; path = Classes/Core/KiwiConfiguration.h; sourceTree = "<group>"; };
 		91A9BBED7F8FB8C076458520F317EA35 /* KWMatchers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatchers.m; path = Classes/Core/KWMatchers.m; sourceTree = "<group>"; };
-		91D23C8C96ADCE24D4AA587A1AA46617 /* TJConvertible+Semantic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Semantic.h"; sourceTree = "<group>"; };
 		91DE1C45884584235452A7E32B1B9685 /* KWRegisterMatchersNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRegisterMatchersNode.h; path = Classes/Nodes/KWRegisterMatchersNode.h; sourceTree = "<group>"; };
 		9203C50F65C679EE95A25A92282E63E0 /* KWLetNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWLetNode.m; path = Classes/Nodes/KWLetNode.m; sourceTree = "<group>"; };
 		92F686059EEE514DE7E5D91CB417CD8C /* KWDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWDeviceInfo.h; path = Classes/Core/KWDeviceInfo.h; sourceTree = "<group>"; };
 		971CAAB21BD26FB037075AA818D261B1 /* KWExampleDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleDelegate.h; path = Classes/Core/KWExampleDelegate.h; sourceTree = "<group>"; };
+		993B2A60C1EB17F622AAACCA66AFEEB6 /* NSDictionary+TJCompatible.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TJCompatible.m"; sourceTree = "<group>"; };
 		9A8E77E4D49631E615C6E0F0537D55E3 /* KWChangeMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWChangeMatcher.h; path = Classes/Matchers/KWChangeMatcher.h; sourceTree = "<group>"; };
 		9C33D28ADC926B7A1A1F2CDAA0DF2207 /* Kiwi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kiwi-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -410,14 +412,10 @@
 		A2418CC0048C3C5BE5F5C8405C7AD884 /* KiwiBlockMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiBlockMacros.h; path = Classes/Core/KiwiBlockMacros.h; sourceTree = "<group>"; };
 		A27B37503092D38C1370A18830A3D614 /* Pods-TypedJSON_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TypedJSON_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A3419B577A96A7B94C6CD63D0C9BACAA /* KWBeforeEachNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeforeEachNode.m; path = Classes/Nodes/KWBeforeEachNode.m; sourceTree = "<group>"; };
-		A35A61E900124DE4B1FE05717C120895 /* TypedJSON-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TypedJSON-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
-		A38507D3298CFAC6A3B960F855BE9D27 /* TJConvertible+Empty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Empty.h"; sourceTree = "<group>"; };
 		A4CC329F862ABF24F8B70CFA8CAD8278 /* KWAny.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAny.h; path = Classes/Core/KWAny.h; sourceTree = "<group>"; };
-		A5F25099EEBA918EDDC79F5B97DFE590 /* TypedJSON-Unit-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TypedJSON-Unit-Tests-resources.sh"; sourceTree = "<group>"; };
 		A654DF130FB617FA2B6032EE48D346EE /* KWInvocationCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWInvocationCapturer.m; path = Classes/Core/KWInvocationCapturer.m; sourceTree = "<group>"; };
 		A738451B657C478EDE8836300AAAE9B3 /* KWMatchVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatchVerifier.m; path = Classes/Verifiers/KWMatchVerifier.m; sourceTree = "<group>"; };
 		A9C72197B4D795C29475C9F80FB4A57C /* KWIntercept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWIntercept.h; path = Classes/Stubbing/KWIntercept.h; sourceTree = "<group>"; };
-		AA7406A756B8FD8985F67D95EFA52B5A /* NSDictionary+TJCompatible.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TJCompatible.m"; sourceTree = "<group>"; };
 		ABF825A1A135B1173A058F94CDFF93AE /* KWNilMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNilMatcher.h; path = Classes/Matchers/KWNilMatcher.h; sourceTree = "<group>"; };
 		AC13B8164511D2CB972A07D822617971 /* KWReceiveMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWReceiveMatcher.m; path = Classes/Matchers/KWReceiveMatcher.m; sourceTree = "<group>"; };
 		ACD90605DB7E14FEFF6C732539F3652F /* libTypedJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTypedJSON.a; path = libTypedJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -427,9 +425,10 @@
 		B02CC782A2C10B6472004DFA5E4474C9 /* KWMatchVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchVerifier.h; path = Classes/Verifiers/KWMatchVerifier.h; sourceTree = "<group>"; };
 		B1DF09D7B6C1F0C15214B501438F4CDB /* KWSharedExampleRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSharedExampleRegistry.h; path = "Classes/Shared Examples/KWSharedExampleRegistry.h"; sourceTree = "<group>"; };
 		B253125A90EE34E1BC2A77601ED22AB1 /* KWAsyncVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAsyncVerifier.h; path = Classes/Verifiers/KWAsyncVerifier.h; sourceTree = "<group>"; };
+		B265C451A580D17749E0B5A7861FAE03 /* TJConvertible+Defaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Defaults.m"; sourceTree = "<group>"; };
 		B2D69573561BDC3592D68084C85CBC5D /* KWBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlock.m; path = Classes/Core/KWBlock.m; sourceTree = "<group>"; };
-		B3596129EC53D6082B9A8D18CEF8B079 /* TJConvertible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJConvertible.h; path = TypedJSON/Classes/TJConvertible.h; sourceTree = "<group>"; };
 		B3EF3D52704967210B84DB562E2D7140 /* KWPendingNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWPendingNode.m; path = Classes/Nodes/KWPendingNode.m; sourceTree = "<group>"; };
+		B46ABBB5DEDEF3DA8221468EA1D79225 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B7B1A9FFE080F94E409DB83CF8437AD9 /* KWBackgroundTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBackgroundTask.h; path = Classes/Core/KWBackgroundTask.h; sourceTree = "<group>"; };
 		B7E6AD0803E99838C795D1D6D5B5D044 /* KWBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlock.h; path = Classes/Core/KWBlock.h; sourceTree = "<group>"; };
 		BA520564D77833F7AED62B2BAF71F914 /* KiwiMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiMacros.h; path = Classes/Core/KiwiMacros.h; sourceTree = "<group>"; };
@@ -445,6 +444,7 @@
 		C22F939EDEE8F296EF29F227425029C6 /* KWNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNull.m; path = Classes/Core/KWNull.m; sourceTree = "<group>"; };
 		C2597A5D4E17EAD3573D10D6E1163607 /* KWBlockNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlockNode.m; path = Classes/Nodes/KWBlockNode.m; sourceTree = "<group>"; };
 		C675DE2968E194D069542F91BB2549CE /* KWFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFormatter.h; path = Classes/Core/KWFormatter.h; sourceTree = "<group>"; };
+		C7EBD9F9A598FBD77F24A3B5CF7E64FB /* TypedJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TypedJSON.h; path = TypedJSON/Classes/TypedJSON.h; sourceTree = "<group>"; };
 		C80738443F0D6D90D1927C9748131E9D /* KWSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSpec.m; path = Classes/Core/KWSpec.m; sourceTree = "<group>"; };
 		C81660083A9A62EEDDF5D6E5F4361B0C /* KWStringUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringUtilities.m; path = Classes/Core/KWStringUtilities.m; sourceTree = "<group>"; };
 		C8EB31812CAC4171B61F988A44439C0F /* KWCaptureSpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCaptureSpy.h; path = Classes/Core/KWCaptureSpy.h; sourceTree = "<group>"; };
@@ -456,11 +456,13 @@
 		CF49441DEBC188DCAAF8175F11CE0233 /* KWBeMemberOfClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeMemberOfClassMatcher.h; path = Classes/Matchers/KWBeMemberOfClassMatcher.h; sourceTree = "<group>"; };
 		D0B175ED697E40A69F70E2BB2A877FE3 /* KWSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSpec.h; path = Classes/Core/KWSpec.h; sourceTree = "<group>"; };
 		D1683BAEF1CDB24D769FCE2DC58FD044 /* KWExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExample.h; path = Classes/Core/KWExample.h; sourceTree = "<group>"; };
-		D23612A1ACA25632DB35A071B1964620 /* TypedJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TypedJSON-dummy.m"; sourceTree = "<group>"; };
 		D2B1FE7A1043429BEF4EF67C797CBBB7 /* NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMAdditions.h"; path = "Classes/Core/NSInvocation+OCMAdditions.h"; sourceTree = "<group>"; };
-		D3F1D216B9F8481DC7478A720C8AE160 /* TJConvertible+Valuable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Valuable.h"; sourceTree = "<group>"; };
+		D39509E85E0ECB174AA40524092B1120 /* TJConvertible+As.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+As.m"; sourceTree = "<group>"; };
+		D3CF9F5F3BEAAE1B771F2E8026999754 /* TJConvertible+Semantic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Semantic.h"; sourceTree = "<group>"; };
 		D5DD8B2976E41A97D7520CA177D3B910 /* libPods-TypedJSON_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TypedJSON_Tests.a"; path = "libPods-TypedJSON_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66E0D052F8D5C1E2B246FFB0E29F48E /* TJConvertible+As.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+As.h"; sourceTree = "<group>"; };
 		D6923533E46F7B7FFB11CF606E35A4D7 /* KWProbePoller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbePoller.h; path = Classes/Core/KWProbePoller.h; sourceTree = "<group>"; };
+		D8230DABA21A731D1D69CE4D25915F2D /* TypedJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TypedJSON-dummy.m"; sourceTree = "<group>"; };
 		D83CE34587D46BD56EE7148A34DF0EE4 /* KWBeforeAllNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeforeAllNode.h; path = Classes/Nodes/KWBeforeAllNode.h; sourceTree = "<group>"; };
 		D8A3E141E37DEDFBD4EF047D1CC44ADE /* Pods-TypedJSON_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TypedJSON_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D95A20CD3F65C7ED3864C38E1E522059 /* NSMethodSignature+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+KiwiAdditions.h"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.h"; sourceTree = "<group>"; };
@@ -473,7 +475,6 @@
 		DFB63D4F0D7803F9E9B30EB6BC827327 /* KWContextNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContextNode.h; path = Classes/Nodes/KWContextNode.h; sourceTree = "<group>"; };
 		E053D5566683A7719A043EFD1A39412D /* KWMessageSpying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessageSpying.h; path = Classes/Core/KWMessageSpying.h; sourceTree = "<group>"; };
 		E5F8826760353FBD95A195010F4D3BB0 /* KWMessagePattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessagePattern.h; path = Classes/Core/KWMessagePattern.h; sourceTree = "<group>"; };
-		E72185A3511755FD2F20DE9DEF743351 /* TJConvertible+Semantic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJConvertible+Semantic.m"; sourceTree = "<group>"; };
 		E783208FFFF5ABE84CB482A88DB1A027 /* KWAfterAllNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAfterAllNode.m; path = Classes/Nodes/KWAfterAllNode.m; sourceTree = "<group>"; };
 		E8C3DD95D31EC45FE9774EBC40A67199 /* KWNotificationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNotificationMatcher.m; path = Classes/Matchers/KWNotificationMatcher.m; sourceTree = "<group>"; };
 		EAE434B764715D752D2B4E542D77FB02 /* KWUserDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWUserDefinedMatcher.m; path = Classes/Matchers/KWUserDefinedMatcher.m; sourceTree = "<group>"; };
@@ -486,12 +487,15 @@
 		EEE179C75DD75241D68EC3B870565BDF /* Kiwi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kiwi.xcconfig; sourceTree = "<group>"; };
 		F251A64845F9ADAEF884A91FF3DBB4AA /* KWRegularExpressionPatternMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRegularExpressionPatternMatcher.m; path = Classes/Matchers/KWRegularExpressionPatternMatcher.m; sourceTree = "<group>"; };
 		F2ED646394DDD42E2F127302A201666C /* KWFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFailure.m; path = Classes/Core/KWFailure.m; sourceTree = "<group>"; };
+		F37A7673ED25B075461F4F56AC7DC810 /* TypedJSON.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TypedJSON.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F4A29A0CCBF50ADED3B16054B685229F /* KWCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWCallSite.m; path = Classes/Core/KWCallSite.m; sourceTree = "<group>"; };
 		F5ABF23164C597DCD0B87A17CDA22A6F /* KWRespondToSelectorMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRespondToSelectorMatcher.m; path = Classes/Matchers/KWRespondToSelectorMatcher.m; sourceTree = "<group>"; };
+		F5C1A50C517C421B8697EE180964AE64 /* Compatible-Tests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Compatible-Tests.m"; path = "TypedJSON/Tests/Compatible-Tests.m"; sourceTree = "<group>"; };
 		F5DF0F794F3A62E6E74593D474177497 /* KWReceiveMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReceiveMatcher.h; path = Classes/Matchers/KWReceiveMatcher.h; sourceTree = "<group>"; };
 		F61A7AD653FC7A315F2B256CA384A522 /* KWExampleNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleNode.h; path = Classes/Nodes/KWExampleNode.h; sourceTree = "<group>"; };
 		F6AB75944093755061FF617979577CD9 /* KWBeBetweenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeBetweenMatcher.h; path = Classes/Matchers/KWBeBetweenMatcher.h; sourceTree = "<group>"; };
-		FA8DE585FD186CBB3AB0EF48272C748E /* TJConvertible.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJConvertible.m; path = TypedJSON/Classes/TJConvertible.m; sourceTree = "<group>"; };
+		F777DE175E89A1349B1CC8D72F2CFB97 /* TJConvertible+Find.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJConvertible+Find.h"; sourceTree = "<group>"; };
+		F86627E3DC9361F8A6B9B626D6238534 /* TJConvertible.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJConvertible.m; path = TypedJSON/Classes/TJConvertible.m; sourceTree = "<group>"; };
 		FB90A115D0AA71716F00F11BFC1D9665 /* KWExpectationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExpectationType.h; path = Classes/Core/KWExpectationType.h; sourceTree = "<group>"; };
 		FBD3DA986CAD4F2B0CED95E95A08AFA9 /* KWEqualMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWEqualMatcher.m; path = Classes/Matchers/KWEqualMatcher.m; sourceTree = "<group>"; };
 		FE5AB1B8233E764545D4F6279EA5FFA0 /* KWNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNull.h; path = Classes/Core/KWNull.h; sourceTree = "<group>"; };
@@ -503,14 +507,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		920BE1FF3E7DAA82F973DD698E9EB0E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				996CE9E486F2D2E4581ECAA638205EE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,9 +531,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE15BE56DA625529FBDA220BD5316116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D386C64668033B57232A6C7A0829EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00AAD38596E6EB879C9C829F57205107 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73B696BAE283E72A4CB65355D80224CF /* TypedJSON */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		0D97785FDDAA20E037B47AB33BE0EF8A /* Pods-TypedJSON_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,6 +561,32 @@
 			);
 			name = "Pods-TypedJSON_Example";
 			path = "Target Support Files/Pods-TypedJSON_Example";
+			sourceTree = "<group>";
+		};
+		22095F67BC16E4CBFDBAB1603041FC8D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B46ABBB5DEDEF3DA8221468EA1D79225 /* LICENSE */,
+				6C38AC050554030AEE60D42AC2A3D330 /* README.md */,
+				F37A7673ED25B075461F4F56AC7DC810 /* TypedJSON.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30298D3D9887FEF1E90E11738008AB9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5580F1D840EB6CCFA9B4229D5CE84B70 /* TypedJSON.xcconfig */,
+				D8230DABA21A731D1D69CE4D25915F2D /* TypedJSON-dummy.m */,
+				40020FA9B8C6CCCF9A11BD885FFB1B2E /* TypedJSON-prefix.pch */,
+				475342DEF57905BEF1CEB3D4822CCDAF /* TypedJSON-Unit-Tests-frameworks.sh */,
+				615ED14C1F97F765F125C88C693EB68E /* TypedJSON-Unit-Tests-Info.plist */,
+				73A408CDFE5224F0CF1101D9F338AADF /* TypedJSON-Unit-Tests-prefix.pch */,
+				3E8CE31E44D29A54162DA0491B3F7119 /* TypedJSON-Unit-Tests-resources.sh */,
+				6A2EF677C3A130213675EDE62C3CEDD5 /* TypedJSON.unit-tests.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TypedJSON";
 			sourceTree = "<group>";
 		};
 		35CBC3D95A8A43511F710C2B2121FBA3 /* Kiwi */ = {
@@ -744,59 +782,41 @@
 			path = Kiwi;
 			sourceTree = "<group>";
 		};
-		6EA4648CC63C3E75985166107DAA096F /* Tests */ = {
+		463745EDBBBDA7EB188760218DD5331A /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				737B3AB0FDF698FCA3C2BDD08AEF6FE9 /* Compatible-Tests.m */,
-				062CB34FEFACD330FE819B7A1D9603ED /* NSDictionary+Compatible-Tests.m */,
+				7772111526AB7C73AA02239057E45F0A /* NSDictionary+TJCompatible.h */,
+				993B2A60C1EB17F622AAACCA66AFEEB6 /* NSDictionary+TJCompatible.m */,
 			);
-			name = Tests;
+			name = NSDictionary;
+			path = NSDictionary;
 			sourceTree = "<group>";
 		};
-		7C30C08F38C7C8F4B5C7FBC09B22C400 /* Development Pods */ = {
+		6C50DF5E57C23BA4FAA49C90570D27D3 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				A086AC9AD591AD579D777929285166FE /* TypedJSON */,
+				EC7427D4476A113E5EAF5B8D0E08DA30 /* Convertible */,
+				463745EDBBBDA7EB188760218DD5331A /* NSDictionary */,
 			);
-			name = "Development Pods";
+			name = Categories;
+			path = TypedJSON/Classes/Categories;
 			sourceTree = "<group>";
 		};
-		85BB6099C9ABF8C19F22B7C7F74CED48 /* Support Files */ = {
+		73B696BAE283E72A4CB65355D80224CF /* TypedJSON */ = {
 			isa = PBXGroup;
 			children = (
-				63DB51CEB9B48A02CD21525EF0C05407 /* TypedJSON.xcconfig */,
-				D23612A1ACA25632DB35A071B1964620 /* TypedJSON-dummy.m */,
-				7DF12D7E68A5D85BC8B3110F4FC169B2 /* TypedJSON-prefix.pch */,
-				72C647AAC07B6004B029634990FDE71B /* TypedJSON-Unit-Tests-frameworks.sh */,
-				47AD7387EAE6A1041E50729D829247D0 /* TypedJSON-Unit-Tests-Info.plist */,
-				A35A61E900124DE4B1FE05717C120895 /* TypedJSON-Unit-Tests-prefix.pch */,
-				A5F25099EEBA918EDDC79F5B97DFE590 /* TypedJSON-Unit-Tests-resources.sh */,
-				68B0432A0CED63EB13F947CD215236B1 /* TypedJSON.unit-tests.xcconfig */,
+				9129A5A1A8095BFE25109B755A454901 /* TJCompatible.h */,
+				3037A8C01827CDAA83BAFA6DF96E3038 /* TJConvertible.h */,
+				F86627E3DC9361F8A6B9B626D6238534 /* TJConvertible.m */,
+				75678CD5B1E641FFCE77B7A877D2C4C0 /* TJDefine.h */,
+				C7EBD9F9A598FBD77F24A3B5CF7E64FB /* TypedJSON.h */,
+				6C50DF5E57C23BA4FAA49C90570D27D3 /* Categories */,
+				22095F67BC16E4CBFDBAB1603041FC8D /* Pod */,
+				30298D3D9887FEF1E90E11738008AB9D /* Support Files */,
+				E2DC1D070BC5EA1BEDB5D95EE700995F /* Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TypedJSON";
-			sourceTree = "<group>";
-		};
-		86147A8BCEC2DC411E795ACE9D2D82C5 /* Convertible */ = {
-			isa = PBXGroup;
-			children = (
-				545F210D4DDF5503D68115B5ED62886A /* TJConvertible+As.h */,
-				698C6A646123486BBFFB6756A6CFE885 /* TJConvertible+As.m */,
-				3A9B37A596A3440C7377554B18D4D99A /* TJConvertible+Defaults.h */,
-				0509B22641609F611B6C4235944DE1DB /* TJConvertible+Defaults.m */,
-				A38507D3298CFAC6A3B960F855BE9D27 /* TJConvertible+Empty.h */,
-				5D713603D6BB027CFA1A3B5B7988F4E5 /* TJConvertible+Empty.m */,
-				27A2ADD6ED9A17390EFFD4185787C760 /* TJConvertible+Find.h */,
-				72A46F55F68582EC6819D5D6990BC269 /* TJConvertible+Find.m */,
-				4B4CE13C2B9ED6E48EF3363ECD7FBCD1 /* TJConvertible+NSDictionary.h */,
-				8408BDA7F8A7C275E7AAE64BAEA9C31C /* TJConvertible+NSDictionary.m */,
-				91D23C8C96ADCE24D4AA587A1AA46617 /* TJConvertible+Semantic.h */,
-				E72185A3511755FD2F20DE9DEF743351 /* TJConvertible+Semantic.m */,
-				D3F1D216B9F8481DC7478A720C8AE160 /* TJConvertible+Valuable.h */,
-				549A035ED0F384E0BA4E92C016943E88 /* TJConvertible+Valuable.m */,
-			);
-			name = Convertible;
-			path = Convertible;
+			name = TypedJSON;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -805,22 +825,6 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		A086AC9AD591AD579D777929285166FE /* TypedJSON */ = {
-			isa = PBXGroup;
-			children = (
-				83D674FC3A266CAC5E21DF8F4255B6C0 /* TJCompatible.h */,
-				B3596129EC53D6082B9A8D18CEF8B079 /* TJConvertible.h */,
-				FA8DE585FD186CBB3AB0EF48272C748E /* TJConvertible.m */,
-				6DC0B79AD2053FAAB29CFD646191A34F /* TypedJSON.h */,
-				CCBC6AE2075270C012DC7447866CF4BE /* Categories */,
-				D62799793C4B68627C6A9054A0442848 /* Pod */,
-				85BB6099C9ABF8C19F22B7C7F74CED48 /* Support Files */,
-				6EA4648CC63C3E75985166107DAA096F /* Tests */,
-			);
-			name = TypedJSON;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B5ED65FE49CD044B04EE9C61474E4805 /* Pods-TypedJSON_Tests */ = {
@@ -845,31 +849,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CA0A90C95D7CF25EC7EECF4543857770 /* NSDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				5B2EB8302D12DDB404A05B9726B471FB /* NSDictionary+TJCompatible.h */,
-				AA7406A756B8FD8985F67D95EFA52B5A /* NSDictionary+TJCompatible.m */,
-			);
-			name = NSDictionary;
-			path = NSDictionary;
-			sourceTree = "<group>";
-		};
-		CCBC6AE2075270C012DC7447866CF4BE /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				86147A8BCEC2DC411E795ACE9D2D82C5 /* Convertible */,
-				CA0A90C95D7CF25EC7EECF4543857770 /* NSDictionary */,
-			);
-			name = Categories;
-			path = TypedJSON/Classes/Categories;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7C30C08F38C7C8F4B5C7FBC09B22C400 /* Development Pods */,
+				00AAD38596E6EB879C9C829F57205107 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D2EDF5B048FB5C3A3C86ECEFE04A16BC /* Pods */,
 				FAE475EB7288662B040291C18A183221 /* Products */,
@@ -893,14 +877,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D62799793C4B68627C6A9054A0442848 /* Pod */ = {
+		E2DC1D070BC5EA1BEDB5D95EE700995F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0353E903B950B408D40C6DC61298EA70 /* LICENSE */,
-				743CD80696DC4936E5318440F08C56D6 /* README.md */,
-				7D7A779B963C4B2024A43E8E04EFEA2B /* TypedJSON.podspec */,
+				4C22BAEAED84A1075889770EA178D19B /* Check-Tests.m */,
+				F5C1A50C517C421B8697EE180964AE64 /* Compatible-Tests.m */,
+				6D36CAD35CB83314DDF77684DA0C9BC7 /* NSDictionary+Compatible-Tests.m */,
 			);
-			name = Pod;
+			name = Tests;
 			sourceTree = "<group>";
 		};
 		E3236A8D801C7E1A731BC55150180BAF /* Support Files */ = {
@@ -912,6 +896,28 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Kiwi";
+			sourceTree = "<group>";
+		};
+		EC7427D4476A113E5EAF5B8D0E08DA30 /* Convertible */ = {
+			isa = PBXGroup;
+			children = (
+				D66E0D052F8D5C1E2B246FFB0E29F48E /* TJConvertible+As.h */,
+				D39509E85E0ECB174AA40524092B1120 /* TJConvertible+As.m */,
+				48CCC8DF0A499F955BF5BD8CCE8D9315 /* TJConvertible+Defaults.h */,
+				B265C451A580D17749E0B5A7861FAE03 /* TJConvertible+Defaults.m */,
+				3419FC85166A6164FAFBCC614891BF92 /* TJConvertible+Empty.h */,
+				7FEBC3CADBD312F8514BD778230A88D7 /* TJConvertible+Empty.m */,
+				F777DE175E89A1349B1CC8D72F2CFB97 /* TJConvertible+Find.h */,
+				5E90D075605B5FB4EAFCFD4FADDC71BA /* TJConvertible+Find.m */,
+				3B5449D07F439839334DB2C37264CFB8 /* TJConvertible+NSDictionary.h */,
+				78FA782D9F54F896D1881BD79DA7D578 /* TJConvertible+NSDictionary.m */,
+				D3CF9F5F3BEAAE1B771F2E8026999754 /* TJConvertible+Semantic.h */,
+				26901267F7A8846777D4945315FA0B9B /* TJConvertible+Semantic.m */,
+				1D5AB81517A13B3F84B4BDD909242FDC /* TJConvertible+Valuable.h */,
+				5DC1FFBAD4B65934D79C1AC764C01F09 /* TJConvertible+Valuable.m */,
+			);
+			name = Convertible;
+			path = Convertible;
 			sourceTree = "<group>";
 		};
 		FAE475EB7288662B040291C18A183221 /* Products */ = {
@@ -929,24 +935,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5A66DB591CBEFD03352A92052C1FC145 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00754DE8D87DBF2BF3972264FE59A4FE /* NSDictionary+TJCompatible.h in Headers */,
-				DE31E8C6FC994FC10AB34694B698DA08 /* TJCompatible.h in Headers */,
-				83E2B59601174E0C9AFBFE9690D05544 /* TJConvertible+As.h in Headers */,
-				26A31C6A0B294132158841348DAF90FA /* TJConvertible+Defaults.h in Headers */,
-				24BE83CB26E56C47AD8EDE44D2CAC60C /* TJConvertible+Empty.h in Headers */,
-				0623C58E7FAA2C86B8BF7A7DEC14041C /* TJConvertible+Find.h in Headers */,
-				6231E65EED1CF6519F3E3953D684C993 /* TJConvertible+NSDictionary.h in Headers */,
-				5C01D61848FEFB1DEDE4D91C522BDAA1 /* TJConvertible+Semantic.h in Headers */,
-				2339B49F2B9719BE27754E146395A4DD /* TJConvertible+Valuable.h in Headers */,
-				A830923A82243B79150F859B4D775268 /* TJConvertible.h in Headers */,
-				47DBA837B93C6BF8AEC88CF1B0667604 /* TypedJSON.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		625065D6C7E31961C0E943D23388F9B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -958,6 +946,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD208495AAA3B4A4F1E6E8D1DE1FBD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B19646A940EFD6798AF98425912D63F /* NSDictionary+TJCompatible.h in Headers */,
+				10E8E6A35F40FE18D31FFCC59D52FD2D /* TJCompatible.h in Headers */,
+				55E891C9B86164AF8F886DCE456C4A47 /* TJConvertible+As.h in Headers */,
+				F4958E84C07E57A34594CDDBCBE20342 /* TJConvertible+Defaults.h in Headers */,
+				87959DDCDBDACD846CC570D46CF090C7 /* TJConvertible+Empty.h in Headers */,
+				C18EFA5A467CD14330363AD4EE64DFB0 /* TJConvertible+Find.h in Headers */,
+				070734A749CAE4C46A580C2490D8B376 /* TJConvertible+NSDictionary.h in Headers */,
+				2AB83E93DBFF64E5C0C9F253FC7A4B73 /* TJConvertible+Semantic.h in Headers */,
+				D2AB370D63C55BE9DD94FFCFCB6C750E /* TJConvertible+Valuable.h in Headers */,
+				FDB93EDA0363A7C399D5F79B6497A078 /* TJConvertible.h in Headers */,
+				3BA67A82BD6E9164B135E9618710EBFF /* TJDefine.h in Headers */,
+				C32FEA86DE361359109B5FE228EEFA10 /* TypedJSON.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1089,6 +1096,27 @@
 			productReference = D5DD8B2976E41A97D7520CA177D3B910 /* libPods-TypedJSON_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		2F6F79D565E182D473C69195725219D1 /* TypedJSON-Unit-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155009FAC154CFBDD9CFF6CDBA77E9E8 /* Build configuration list for PBXNativeTarget "TypedJSON-Unit-Tests" */;
+			buildPhases = (
+				75C019F3FC337F54FAEC1166F2528263 /* Sources */,
+				DE15BE56DA625529FBDA220BD5316116 /* Frameworks */,
+				383C7DA7A8F2617D4470C0ECEF94923C /* Resources */,
+				0BEED97B26822B56D1F7CD4ACEABBA38 /* [CP] Embed Pods Frameworks */,
+				FF8C40AF17C7567AD83DE7C5753A0388 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69767127048A0121750FDF951F2DF6A4 /* PBXTargetDependency */,
+				A00AA352F276485C155104F2E696103F /* PBXTargetDependency */,
+			);
+			name = "TypedJSON-Unit-Tests";
+			productName = "TypedJSON-Unit-Tests";
+			productReference = 6DA221AD59F94E71F174982337BCE5EC /* TypedJSON-Unit-Tests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3147DDC5BAE846D10D3FC72F1C5BB0A8 /* Pods-TypedJSON_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82D06B1FC61A31645F127EDCD6817622 /* Build configuration list for PBXNativeTarget "Pods-TypedJSON_Example" */;
@@ -1124,32 +1152,11 @@
 			productReference = 1E9F09CBF58F393A062598353C2B2F56 /* libKiwi.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		87BDC11EF0735D676CD0888DD80E1208 /* TypedJSON-Unit-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9E04B6D47CA9E516D5DB9E246BAB3E26 /* Build configuration list for PBXNativeTarget "TypedJSON-Unit-Tests" */;
-			buildPhases = (
-				671834ABFBE86BCA9E96188845504227 /* Sources */,
-				920BE1FF3E7DAA82F973DD698E9EB0E3 /* Frameworks */,
-				222A3AFD7EEFDF7D6884188B1DBF370C /* Resources */,
-				936F4CEE1350699C64F10E357FB29CE1 /* [CP] Embed Pods Frameworks */,
-				75914FC8F48807EF6DE4BD221FF1A777 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				88067C9BD7069CAE9ED62F3BF3FC0FCC /* PBXTargetDependency */,
-				A8BA42A5E92A1F90EF2605E1AF0D97F4 /* PBXTargetDependency */,
-			);
-			name = "TypedJSON-Unit-Tests";
-			productName = "TypedJSON-Unit-Tests";
-			productReference = 6DA221AD59F94E71F174982337BCE5EC /* TypedJSON-Unit-Tests */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		DDD36539619B082CA8610324BEE81936 /* TypedJSON */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C00E84634D08DFB85ABCF0B41DB9C646 /* Build configuration list for PBXNativeTarget "TypedJSON" */;
 			buildPhases = (
-				5A66DB591CBEFD03352A92052C1FC145 /* Headers */,
+				8BD208495AAA3B4A4F1E6E8D1DE1FBD1 /* Headers */,
 				572D291BD629687CF76CE203F0CB0F02 /* Sources */,
 				9ABD22F0B38C539E9EE914FFC7F265E5 /* Frameworks */,
 			);
@@ -1187,13 +1194,13 @@
 				3147DDC5BAE846D10D3FC72F1C5BB0A8 /* Pods-TypedJSON_Example */,
 				1CB18D31E1E33FE783C747EAB3B46982 /* Pods-TypedJSON_Tests */,
 				DDD36539619B082CA8610324BEE81936 /* TypedJSON */,
-				87BDC11EF0735D676CD0888DD80E1208 /* TypedJSON-Unit-Tests */,
+				2F6F79D565E182D473C69195725219D1 /* TypedJSON-Unit-Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		222A3AFD7EEFDF7D6884188B1DBF370C /* Resources */ = {
+		383C7DA7A8F2617D4470C0ECEF94923C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1203,26 +1210,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		75914FC8F48807EF6DE4BD221FF1A777 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/TypedJSON/TypedJSON-Unit-Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		936F4CEE1350699C64F10E357FB29CE1 /* [CP] Embed Pods Frameworks */ = {
+		0BEED97B26822B56D1F7CD4ACEABBA38 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1239,6 +1227,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/TypedJSON/TypedJSON-Unit-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF8C40AF17C7567AD83DE7C5753A0388 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TypedJSON/TypedJSON-Unit-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1261,12 +1268,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		671834ABFBE86BCA9E96188845504227 /* Sources */ = {
+		75C019F3FC337F54FAEC1166F2528263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C130F28B6746CD473AAADE657E6664 /* Compatible-Tests.m in Sources */,
-				E79050EFE91EDF8E9DC5C3776E722D52 /* NSDictionary+Compatible-Tests.m in Sources */,
+				C124AC3C93FB783007F7F4F24500F0B4 /* Check-Tests.m in Sources */,
+				860B1E113742FE5DF3022ADEED730E19 /* Compatible-Tests.m in Sources */,
+				C23C5B65E4497E985168F724DB9D04B2 /* NSDictionary+Compatible-Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1394,23 +1402,23 @@
 			target = 3147DDC5BAE846D10D3FC72F1C5BB0A8 /* Pods-TypedJSON_Example */;
 			targetProxy = 12B2748216DD788F653B97583DCCDD81 /* PBXContainerItemProxy */;
 		};
-		88067C9BD7069CAE9ED62F3BF3FC0FCC /* PBXTargetDependency */ = {
+		69767127048A0121750FDF951F2DF6A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kiwi;
 			target = 67DA4A8C816BC53B1924A1CED1F9512E /* Kiwi */;
-			targetProxy = 38D8C5F9D8242AF3799D420812C6A5CA /* PBXContainerItemProxy */;
+			targetProxy = 502E15EC59E78C0BCF2390B264911102 /* PBXContainerItemProxy */;
+		};
+		A00AA352F276485C155104F2E696103F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TypedJSON;
+			target = DDD36539619B082CA8610324BEE81936 /* TypedJSON */;
+			targetProxy = 4B0CF3D22D82F1C0460EE4EF4021F792 /* PBXContainerItemProxy */;
 		};
 		A23E7DE9BF9255B1B56CE45F67A69393 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TypedJSON;
 			target = DDD36539619B082CA8610324BEE81936 /* TypedJSON */;
 			targetProxy = 03E1B4EBFF219EB61C594A9BCB6F7715 /* PBXContainerItemProxy */;
-		};
-		A8BA42A5E92A1F90EF2605E1AF0D97F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TypedJSON;
-			target = DDD36539619B082CA8610324BEE81936 /* TypedJSON */;
-			targetProxy = 1BFFB05C856F049E3B7373440D0D08AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1435,6 +1443,29 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05192F756A4D860DD003E86ED9B8D6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2EF677C3A130213675EDE62C3CEDD5 /* TypedJSON.unit-tests.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TypedJSON/TypedJSON-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TypedJSON/TypedJSON-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "TypedJSON-Unit-Tests";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1501,7 +1532,7 @@
 		};
 		3A82EB10EBE05914BF5E3E9A42A8BA75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63DB51CEB9B48A02CD21525EF0C05407 /* TypedJSON.xcconfig */;
+			baseConfigurationReference = 5580F1D840EB6CCFA9B4229D5CE84B70 /* TypedJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1653,29 +1684,6 @@
 			};
 			name = Debug;
 		};
-		685DEE2AAC6D0B85DCEC6281DDD9B62C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68B0432A0CED63EB13F947CD215236B1 /* TypedJSON.unit-tests.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = YES;
-				CODE_SIGNING_REQUIRED = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TypedJSON/TypedJSON-Unit-Tests-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TypedJSON/TypedJSON-Unit-Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "TypedJSON-Unit-Tests";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		7B6565BD3C132C725A660E8F2ED9D1E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AB0EFE4D25B53FE8BACF42484892178 /* Pods-TypedJSON_Example.release.xcconfig */;
@@ -1719,9 +1727,9 @@
 			};
 			name = Debug;
 		};
-		C285312273347C50B7B91BFEB9C4BB85 /* Debug */ = {
+		E88079AC9C1D0028132EA55B805121F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68B0432A0CED63EB13F947CD215236B1 /* TypedJSON.unit-tests.xcconfig */;
+			baseConfigurationReference = 6A2EF677C3A130213675EDE62C3CEDD5 /* TypedJSON.unit-tests.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGNING_REQUIRED = YES;
@@ -1743,7 +1751,7 @@
 		};
 		EF4F5CCE4079646B89E61052C802E3A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63DB51CEB9B48A02CD21525EF0C05407 /* TypedJSON.xcconfig */;
+			baseConfigurationReference = 5580F1D840EB6CCFA9B4229D5CE84B70 /* TypedJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1767,6 +1775,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		155009FAC154CFBDD9CFF6CDBA77E9E8 /* Build configuration list for PBXNativeTarget "TypedJSON-Unit-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88079AC9C1D0028132EA55B805121F6 /* Debug */,
+				05192F756A4D860DD003E86ED9B8D6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		392D9BFDFB769B51C105BD4840564B1D /* Build configuration list for PBXNativeTarget "Pods-TypedJSON_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1790,15 +1807,6 @@
 			buildConfigurations = (
 				816E7FFA33CE97129359EA7E74B80CAF /* Debug */,
 				7B6565BD3C132C725A660E8F2ED9D1E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E04B6D47CA9E516D5DB9E246BAB3E26 /* Build configuration list for PBXNativeTarget "TypedJSON-Unit-Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C285312273347C50B7B91BFEB9C4BB85 /* Debug */,
-				685DEE2AAC6D0B85DCEC6281DDD9B62C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
